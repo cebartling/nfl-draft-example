@@ -10,14 +10,14 @@ class Nav extends Component {
             <nav className="navbar navbar-expand-lg navbar-transparent navbar-absolute bg-primary fixed-top">
                 <div className="container-fluid">
                     <div className="navbar-wrapper">
-                        {/*<div className="navbar-toggle">*/}
-                        {/*<button type="button" className="navbar-toggler">*/}
-                        {/*<span className="navbar-toggler-bar bar1"/>*/}
-                        {/*<span className="navbar-toggler-bar bar2"/>*/}
-                        {/*<span className="navbar-toggler-bar bar3"/>*/}
-                        {/*</button>*/}
-                        {/*</div>*/}
-                        {/*<a className="navbar-brand" href="#pablo">Table List</a>*/}
+                        <div className="navbar-toggle">
+                            <button type="button" className="navbar-toggler">
+                                <span className="navbar-toggler-bar bar1"/>
+                                <span className="navbar-toggler-bar bar2"/>
+                                <span className="navbar-toggler-bar bar3"/>
+                            </button>
+                        </div>
+                        <a className="navbar-brand" href="#pablo">Table List</a>
                     </div>
                     {/*<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"*/}
                     {/*aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">*/}

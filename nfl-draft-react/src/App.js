@@ -8,6 +8,7 @@ import AWSAppSyncClient from "aws-appsync";
 import {Rehydrated} from 'aws-appsync-react';
 import {AUTH_TYPE} from "aws-appsync/lib/link/auth-link";
 import {ApolloProvider} from 'react-apollo';
+import PlayerBioViewContainer from "./containers/PlayerBioViewContainer";
 
 const client = new AWSAppSyncClient({
     url: process.env.REACT_APP_APPSYNC_ENDPOINT,
@@ -47,6 +48,7 @@ class App extends Component {
                             <div className="main-content">
                                 <Route exact path="/" component={WelcomeViewContainer}/>
                                 <Route exact path="/draft" component={DraftViewContainer}/>
+                                <Route exact path="/playerBio" component={PlayerBioViewContainer}/>
                             </div>
                         </div>
                     </Router>

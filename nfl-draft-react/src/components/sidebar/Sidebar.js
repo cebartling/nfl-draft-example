@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {faCoffee} from '@fortawesome/fontawesome-free-solid';
+import './Sidebar.css';
 
 class Sidebar extends Component {
     static propTypes = {};
@@ -15,10 +18,9 @@ class Sidebar extends Component {
                 <div className="sidebar-wrapper">
                     <ul className="nav">
                         <li>
-                            <a href="../examples/dashboard.html">
-                                <i className="now-ui-icons design_app"/>
-                                <p>Dashboard</p>
-                            </a>
+                            <Link to="/draft">
+                                <FontAwesomeIcon icon={faCoffee}/> Draft
+                            </Link>
                         </li>
                     </ul>
                 </div>

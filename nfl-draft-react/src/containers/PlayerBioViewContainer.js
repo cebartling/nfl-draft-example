@@ -1,34 +1,28 @@
 import React, {Component} from 'react';
-import './DraftViewContainer.css';
+import './PlayerBioViewContainer.css';
 import {compose, graphql} from 'react-apollo';
-import AllPlayersQuery from '../graphql/players/AllPlayersQuery';
+import PlayerBioQuery from '../graphql/players/PlayerBioQuery';
 import Sidebar from "../components/sidebar/Sidebar";
 import PanelHeader from "../components/header/PanelHeader";
 import Footer from "../components/footer/Footer";
 import PlayerCard from "../components/player/PlayerCard";
 
 
-class DraftViewContainer extends Component {
+class PlayerBioViewContainer extends Component {
     static propTypes = {};
 
     static defaultProps = {};
 
-    renderPlayers(players) {
-        return players.map((player) => {
-            return (<PlayerCard player={player} key={player.PlayerId}/>);
-        });
-    }
-
     render() {
-        const {players} = this.props;
+        const {player} = this.props;
 
         return (
             <div className="wrapper ">
                 <Sidebar/>
                 <div className="main-panel">
-                    <PanelHeader title={'Draft'}/>
+                    <PanelHeader title={'PlayerBio'}/>
                     <div className="content">
-                        {players ? this.renderPlayers(players) : null}
+                        <PlayerCard player={player}/>
                     </div>
                     <Footer/>
                 </div>
@@ -38,13 +32,13 @@ class DraftViewContainer extends Component {
     }
 }
 
-const DraftViewContainerWithData = compose(
-    graphql(AllPlayersQuery, {
+const PlayerBioViewContainerWithData = compose(
+    graphql(PlayerBioQuery, {
         options: {
             fetchPolicy: 'cache-and-network'
         },
         props: (props) => ({
-            players: props.data.listNflDraftMachinePlayers && props.data.listNflDraftMachinePlayers.items,
+            player: props.data.getNflDraftMachinePlayers,
         })
     }),
     // graphql(DeletePostMutation, {
@@ -87,6 +81,6 @@ const DraftViewContainerWithData = compose(
     //         }
     //     }
     // })
-)(DraftViewContainer);
+)(PlayerBioViewContainer);
 
-export default DraftViewContainerWithData;
+export default PlayerBioViewContainerWithData;

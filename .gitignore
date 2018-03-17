@@ -16,6 +16,7 @@ nfl-draft-react/.env.local
 nfl-draft-react/.env.development.local
 nfl-draft-react/.env.test.local
 nfl-draft-react/.env.production.local
+nfl-draft-react/src/**/*.css
 
 nfl-draft-react/npm-debug.log*
 nfl-draft-react/yarn-debug.log*

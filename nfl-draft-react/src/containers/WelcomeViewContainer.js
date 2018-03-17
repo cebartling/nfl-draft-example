@@ -15,7 +15,7 @@ class WelcomeViewContainer extends Component {
             <div className="wrapper ">
                 <Sidebar/>
                 <div className="main-panel">
-                    <PanelHeader/>
+                    <PanelHeader title={'Welcome'}/>
                     <div className="content">
                         <div className="row">
                             <div className="col-md-12">
