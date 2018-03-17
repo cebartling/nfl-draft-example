@@ -4,6 +4,8 @@
       "PutRequest": {
         "Item": {
           "PlayerId": {"S":"1"},
+          "HeightInCentimeters": {"S": "198.12" },
+          "WeightInKilograms": {"S": "119.83" },
           "Position": {"S":"EDGE"},
           "FirstName": {"S":"Marcus"},
           "LastName": {"S":"Davenport"}
@@ -14,7 +16,9 @@
       "PutRequest": {
         "Item": {
           "PlayerId": {"S":"2"},
-          "Position": {"S":"Cornerback"},
+          "HeightInCentimeters": {"S": "190.5" },
+          "WeightInKilograms": {"S": "97.52" },
+          "Position": {"S":"Safety"},
           "FirstName": {"S":"Derwin"},
           "LastName": {"S":"James"}
         }
@@ -24,7 +28,9 @@
       "PutRequest": {
         "Item": {
           "PlayerId": {"S":"3"},
-          "Position": {"S":"Safety"},
+          "HeightInCentimeters": {"S": "177.8" },
+          "WeightInKilograms": {"S": "86.64" },
+          "Position": {"S":"Cornerback"},
           "FirstName": {"S":"Denzel"},
           "LastName": {"S":"Ward"}
         }
