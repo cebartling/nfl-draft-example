@@ -1,5 +1,25 @@
+/.idea/
+
 /nfl-draft-react/.idea/
 /nfl-draft-react/node_modules/
-/.idea/
+
+# testing
+/nfl-draft-react/coverage
+
+# production
+/nfl-draft-react/build
+
+# misc
+.DS_Store
+/nfl-draft-react/.env.local
+/nfl-draft-react/.env.development.local
+/nfl-draft-react/.env.test.local
+/nfl-draft-react/.env.production.local
+
+/nfl-draft-react/npm-debug.log*
+/nfl-draft-react/yarn-debug.log*
+/nfl-draft-react/yarn-error.log*
+
 /aws-infrastructure/*.tfstate
 /aws-infrastructure/*.tfstate.backup
+/aws-infrastructure/.terraform/
