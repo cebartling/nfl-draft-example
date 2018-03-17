@@ -4,6 +4,7 @@
       "PutRequest": {
         "Item": {
           "PlayerId": {"S":"1"},
+          "Position": {"S":"EDGE"},
           "FirstName": {"S":"Marcus"},
           "LastName": {"S":"Davenport"}
         }
@@ -13,6 +14,7 @@
       "PutRequest": {
         "Item": {
           "PlayerId": {"S":"2"},
+          "Position": {"S":"Cornerback"},
           "FirstName": {"S":"Derwin"},
           "LastName": {"S":"James"}
         }
@@ -22,6 +24,7 @@
       "PutRequest": {
         "Item": {
           "PlayerId": {"S":"3"},
+          "Position": {"S":"Safety"},
           "FirstName": {"S":"Denzel"},
           "LastName": {"S":"Ward"}
         }
