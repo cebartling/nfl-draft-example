@@ -1,0 +1,31 @@
+{
+  "nfl-draft-machine-Players": [
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {"S":"1"},
+          "FirstName": {"S":"Marcus"},
+          "LastName": {"S":"Davenport"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {"S":"2"},
+          "FirstName": {"S":"Derwin"},
+          "LastName": {"S":"James"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {"S":"3"},
+          "FirstName": {"S":"Denzel"},
+          "LastName": {"S":"Ward"}
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,5 @@
 /nfl-draft-react/.idea/
 /nfl-draft-react/node_modules/
 /.idea/
+/aws-infrastructure/*.tfstate
+/aws-infrastructure/*.tfstate.backup
