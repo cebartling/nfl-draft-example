@@ -1,7 +1,7 @@
 resource "aws_dynamodb_table" "players-table" {
   name = "${var.application}-Players"
-  read_capacity = 20
-  write_capacity = 20
+  read_capacity = 2
+  write_capacity = 2
   hash_key = "PlayerId"
 
   attribute {
