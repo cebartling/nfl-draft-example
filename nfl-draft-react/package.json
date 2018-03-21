@@ -6,11 +6,11 @@
     "@fortawesome/fontawesome": "^1.1.4",
     "@fortawesome/fontawesome-free-solid": "^5.0.8",
     "@fortawesome/react-fontawesome": "^0.0.17",
-    "amazon-cognito-identity-js": "^2.0.1",
-    "aws-amplify": "^0.2.9",
-    "aws-appsync": "^1.0.13",
+    "amazon-cognito-identity-js": "^2.0.2",
+    "aws-amplify": "^0.2.11",
+    "aws-appsync": "^1.0.14",
     "aws-appsync-react": "^1.0.6",
-    "aws-sdk": "^2.211.0",
+    "aws-sdk": "^2.212.1",
     "bootstrap": "^4.0.0",
     "graphql-tag": "^2.8.0",
     "jquery": "^3.3.1",
@@ -36,7 +36,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "node-sass-chokidar": "^1.1.1",
+    "node-sass-chokidar": "^1.2.0",
     "npm-run-all": "^4.1.2"
   }
 }
