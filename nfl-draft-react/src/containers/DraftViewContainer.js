@@ -2,11 +2,9 @@ import React, {Component} from 'react';
 import './DraftViewContainer.css';
 import {compose, graphql} from 'react-apollo';
 import AllPlayersQuery from '../graphql/players/AllPlayersQuery';
-import Sidebar from "../components/sidebar/Sidebar";
-import PanelHeader from "../components/header/PanelHeader";
 import Footer from "../components/footer/Footer";
-import PlayerCard from "../components/player/PlayerCard";
 import Nav from "../components/nav/Nav";
+import PlayerMockDraftTableRow from '../components/player/PlayerMockDraftTableRow';
 
 
 class DraftViewContainer extends Component {
@@ -15,8 +13,11 @@ class DraftViewContainer extends Component {
     static defaultProps = {};
 
     renderPlayers(players) {
+        let pick = 0;
         return players.map((player) => {
-            return (<PlayerCard player={player} key={player.PlayerId}/>);
+            pick++;
+
+            return (<PlayerMockDraftTableRow player={player} pick={pick}/>);
         });
     }
 
@@ -29,7 +30,18 @@ class DraftViewContainer extends Component {
                 <main role="main" className="container">
                     <div className="">
                         <h1>Mock Draft</h1>
-                        {players ? this.renderPlayers(players) : null}
+                        <table className="table table-bordered table-hover table-responsive-lg table-striped">
+                            <thead>
+                            <tr>
+                                <th>Pick</th>
+                                <th>Name</th>
+                                <th>Position</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {players ? this.renderPlayers(players) : null}
+                            </tbody>
+                        </table>
                     </div>
                 </main>
                 <Footer/>
