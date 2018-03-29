@@ -298,18 +298,6 @@
           }
         }
       }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "TeamId": {
-            "S": "26"
-          },
-          "Name": {
-            "S": "Cincinnati Bengals"
-          }
-        }
-      }
     }
   ]
 }
