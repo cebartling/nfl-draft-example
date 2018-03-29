@@ -6,6 +6,7 @@ import Sidebar from "../components/sidebar/Sidebar";
 import PanelHeader from "../components/header/PanelHeader";
 import Footer from "../components/footer/Footer";
 import PlayerCard from "../components/player/PlayerCard";
+import Nav from "../components/nav/Nav";
 
 
 class DraftViewContainer extends Component {
@@ -23,17 +24,16 @@ class DraftViewContainer extends Component {
         const {players} = this.props;
 
         return (
-            <div className="wrapper ">
-                <Sidebar/>
-                <div className="main-panel">
-                    <PanelHeader title={'Draft'}/>
-                    <div className="content">
+            <div>
+                <Nav/>
+                <main role="main" className="container">
+                    <div className="">
+                        <h1>Mock Draft</h1>
                         {players ? this.renderPlayers(players) : null}
                     </div>
-                    <Footer/>
-                </div>
+                </main>
+                <Footer/>
             </div>
-
         );
     }
 }

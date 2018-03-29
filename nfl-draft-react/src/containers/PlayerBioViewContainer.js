@@ -2,9 +2,8 @@ import React, {Component} from 'react';
 import './PlayerBioViewContainer.css';
 import {compose, graphql} from 'react-apollo';
 import PlayerBioQuery from '../graphql/players/PlayerBioQuery';
-import Sidebar from "../components/sidebar/Sidebar";
-import PanelHeader from "../components/header/PanelHeader";
 import Footer from "../components/footer/Footer";
+import Nav from "../components/nav/Nav";
 import PlayerCard from "../components/player/PlayerCard";
 
 
@@ -17,17 +16,16 @@ class PlayerBioViewContainer extends Component {
         const {player} = this.props;
 
         return (
-            <div className="wrapper ">
-                <Sidebar/>
-                <div className="main-panel">
-                    <PanelHeader title={'PlayerBio'}/>
-                    <div className="content">
+            <div>
+                <Nav/>
+                <main role="main" className="container">
+                    <div className="">
+                        <h1>Player Bio</h1>
                         <PlayerCard player={player}/>
                     </div>
-                    <Footer/>
-                </div>
+                </main>
+                <Footer/>
             </div>
-
         );
     }
 }
