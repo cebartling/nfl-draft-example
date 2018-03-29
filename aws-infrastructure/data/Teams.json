@@ -1,21 +1,389 @@
 {
-    "nfl-draft-machine-Teams": [
-      {
-        "PutRequest": {
-          "Item": {
-            "TeamId": {"S":"1"},
-            "Name": {"S": "Green Bay Packers" }
-          }
-        }
-      },
-      {
-        "PutRequest": {
-          "Item": {
-            "TeamId": {"S":"2"},
-            "Name": {"S": "Minnesota Vikings" }
+  "nfl-draft-machine-Teams": [{
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "1"
+          },
+          "Name": {
+            "S": "Arizona Cardinals"
           }
         }
       }
-    ]
-  }
-  
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "2"
+          },
+          "Name": {
+            "S": "Chicago Bears"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "3"
+          },
+          "Name": {
+            "S": "Green Bay Packers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "4"
+          },
+          "Name": {
+            "S": "New York Giants"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "5"
+          },
+          "Name": {
+            "S": "Detroit Lions"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "6"
+          },
+          "Name": {
+            "S": "Washington Redskins"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "7"
+          },
+          "Name": {
+            "S": "Philadelphia Eagles"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "8"
+          },
+          "Name": {
+            "S": "Pittsburgh Steelers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "9"
+          },
+          "Name": {
+            "S": "Los Angeles Rams"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "10"
+          },
+          "Name": {
+            "S": "San Francisco 49ers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "11"
+          },
+          "Name": {
+            "S": "Cleveland Browns"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "12"
+          },
+          "Name": {
+            "S": "Indianapolis Colts"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "13"
+          },
+          "Name": {
+            "S": "Dallas Cowboys"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "14"
+          },
+          "Name": {
+            "S": "Kansas City Chiefs"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "15"
+          },
+          "Name": {
+            "S": "Los Angeles Chargers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "16"
+          },
+          "Name": {
+            "S": "Denver Broncos"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "17"
+          },
+          "Name": {
+            "S": "New York Jets"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "18"
+          },
+          "Name": {
+            "S": "New England Patriots"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "19"
+          },
+          "Name": {
+            "S": "Oakland Raiders"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "20"
+          },
+          "Name": {
+            "S": "Tennessee Titans"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "21"
+          },
+          "Name": {
+            "S": "Buffalo Bills"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "22"
+          },
+          "Name": {
+            "S": "Minnesota Vikings"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "23"
+          },
+          "Name": {
+            "S": "Atlanta Falcons"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "24"
+          },
+          "Name": {
+            "S": "Miami Dolphins"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "25"
+          },
+          "Name": {
+            "S": "New Orleans Saints"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "26"
+          },
+          "Name": {
+            "S": "Cincinnati Bengals"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "27"
+          },
+          "Name": {
+            "S": "Seattle Seahawks"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "28"
+          },
+          "Name": {
+            "S": "Tampa Bay Buccaneers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "29"
+          },
+          "Name": {
+            "S": "Carolina Panthers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "30"
+          },
+          "Name": {
+            "S": "Jacksonville Jaguars"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "31"
+          },
+          "Name": {
+            "S": "Baltimore Ravens"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {
+            "S": "32"
+          },
+          "Name": {
+            "S": "Houston Texans"
+          }
+        }
+      }
+    }
+  ]
+}
+
+
