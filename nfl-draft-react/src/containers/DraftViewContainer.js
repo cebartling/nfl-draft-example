@@ -17,7 +17,7 @@ class DraftViewContainer extends Component {
         return players.map((player) => {
             pick++;
 
-            return (<PlayerMockDraftTableRow player={player} pick={pick}/>);
+            return (<PlayerMockDraftTableRow player={player} pick={pick} key={player.PlayerId}/>);
         });
     }
 
