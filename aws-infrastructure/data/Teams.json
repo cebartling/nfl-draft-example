@@ -1,0 +1,21 @@
+{
+    "nfl-draft-machine-Teams": [
+      {
+        "PutRequest": {
+          "Item": {
+            "TeamId": {"S":"1"},
+            "Name": {"S": "Green Bay Packers" }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "TeamId": {"S":"2"},
+            "Name": {"S": "Minnesota Vikings" }
+          }
+        }
+      }
+    ]
+  }
+  

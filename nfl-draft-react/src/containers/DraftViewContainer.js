@@ -30,12 +30,13 @@ class DraftViewContainer extends Component {
                 <main role="main" className="container">
                     <div className="">
                         <h1>Mock Draft</h1>
-                        <table className="table table-bordered table-hover table-responsive-lg table-striped">
+                        <table className="table table-bordered table-hover table-responsive-sm table-striped">
                             <thead>
                             <tr>
                                 <th>Pick</th>
-                                <th>Name</th>
-                                <th>Position</th>
+                                <th className="text-left">Name</th>
+                                <th className="text-left">Position</th>
+                                <th className="text-left">Drafting Team</th>
                             </tr>
                             </thead>
                             <tbody>

@@ -14,4 +14,5 @@ that is needed for this example.
 ## Load data into DynamoDB
 
 1. Change directory to `aws-infrastructure`. All subsequent commands will be executed from this directory.
+1. Run `aws dynamodb batch-write-item --request-items file://data/Teams.json` to load the NFL teams.
 1. Run `aws dynamodb batch-write-item --request-items file://data/Players.json` to load the players.

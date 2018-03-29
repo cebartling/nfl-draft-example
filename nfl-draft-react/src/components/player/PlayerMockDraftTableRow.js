@@ -15,8 +15,9 @@ class PlayerMockDraftTableRow extends Component {
         return (
             <tr key={player.PlayerId}>
                 <td>{pick}</td>
-                <td>{player.FirstName} {player.LastName}</td>
-                <td>{player.Position}</td>
+                <td className="text-left">{player.FirstName} {player.LastName}</td>
+                <td className="text-left">{player.Position}</td>
+                <td className="text-left">Green Bay Packers</td>
             </tr>
         );
     }
