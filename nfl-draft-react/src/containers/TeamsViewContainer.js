@@ -50,8 +50,8 @@ const TeamsViewContainerWithData = compose(
         options: {
             fetchPolicy: 'cache-and-network'
         },
-        props: (props) => ({
-            teams: props.data.listNflDraftMachineTeams && props.data.listNflDraftMachineTeams.items,
+        props: ({data: {listNflDraftMachineTeams}}) => ({
+            teams: listNflDraftMachineTeams && listNflDraftMachineTeams.items,
         })
     }),
     // graphql(DeletePostMutation, {
