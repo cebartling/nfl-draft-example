@@ -5,6 +5,7 @@ import AllTeamsQuery from '../graphql/teams/AllTeamsQuery';
 import Footer from "../components/footer/Footer";
 import Nav from "../components/nav/Nav";
 import TeamTableRow from "../components/team/TeamTableRow";
+import _ from 'lodash';
 
 
 class TeamsViewContainer extends Component {
@@ -13,7 +14,7 @@ class TeamsViewContainer extends Component {
     static defaultProps = {};
 
     renderTeams(teams) {
-        return teams.map((team) => {
+        return _.orderBy(teams, ['Name'], ['asc']).map((team) => {
             return (<TeamTableRow team={team} key={team.TeamId}/>);
         });
     }
@@ -45,55 +46,15 @@ class TeamsViewContainer extends Component {
     }
 }
 
-const TeamsViewContainerWithData = compose(
-    graphql(AllTeamsQuery, {
-        options: {
-            fetchPolicy: 'cache-and-network'
-        },
-        props: ({data: {listNflDraftMachineTeams}}) => ({
-            teams: listNflDraftMachineTeams && listNflDraftMachineTeams.items,
-        })
-    }),
-    // graphql(DeletePostMutation, {
-    //     props: (props) => ({
-    //         onDelete: (post) => props.mutate({
-    //             variables: { id: post.id, expectedVersion: post.version },
-    //             optimisticResponse: () => ({ deletePost: { ...post, __typename: 'Post' } }),
-    //         })
-    //     }),
-    //     options: {
-    //         refetchQueries: [{ query: AllPostsQuery }],
-    //         update: (proxy, { data: { deletePost: { id } } }) => {
-    //             const query = AllPostsQuery;
-    //             const data = proxy.readQuery({ query });
-    //
-    //             data.allPost.posts = data.allPost.posts.filter(post => post.id !== id);
-    //
-    //             proxy.writeQuery({ query, data });
-    //         }
-    //     }
-    // }),
-    // graphql(UpdatePostMutation, {
-    //     props: (props) => ({
-    //         onEdit: (post) => {
-    //             props.mutate({
-    //                 variables: { ...post, expectedVersion: post.version },
-    //                 optimisticResponse: () => ({ updatePost: { ...post, __typename: 'Post', version: post.version + 1 } }),
-    //             })
-    //         }
-    //     }),
-    //     options: {
-    //         refetchQueries: [{ query: AllPostsQuery }],
-    //         update: (dataProxy, { data: { updatePost } }) => {
-    //             const query = AllPostsQuery;
-    //             const data = dataProxy.readQuery({ query });
-    //
-    //             data.allPost.posts = data.allPost.posts.map(post => post.id !== updatePost.id ? post : { ...updatePost });
-    //
-    //             dataProxy.writeQuery({ query, data });
-    //         }
-    //     }
-    // })
-)(TeamsViewContainer);
+const allTeamsQuery = graphql(AllTeamsQuery, {
+    options: {
+        fetchPolicy: 'cache-and-network'
+    },
+    props: ({data: {listNflDraftMachineTeams}}) => ({
+        teams: listNflDraftMachineTeams && listNflDraftMachineTeams.items,
+    })
+});
+
+const TeamsViewContainerWithData = compose(allTeamsQuery)(TeamsViewContainer);
 
 export default TeamsViewContainerWithData;
