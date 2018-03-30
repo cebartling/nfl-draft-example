@@ -2,7 +2,7 @@ import gql from 'graphql-tag';
 
 export default gql`
 query listNflDraftMachineTeams {
-    listNflDraftMachineTeams {
+    listNflDraftMachineTeams(first: 32) {
         items {
             TeamId
             Name
