@@ -33,6 +33,10 @@ class Nav extends Component {
                             <Link className="nav-link" to="/draft">Mock Draft</Link>
                         </li>
 
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/teams">Teams</Link>
+                        </li>
+
                     </ul>
                 </div>
             </nav>
