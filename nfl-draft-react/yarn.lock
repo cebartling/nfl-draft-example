@@ -163,9 +163,9 @@ amazon-cognito-identity-js@^2.0.0:
     crypto-browserify "1.0.9"
     js-cookie "^2.1.4"
 
-amazon-cognito-identity-js@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-2.0.2.tgz#8faa1dedcbe33e1c5b1d18252580f57ab5652acf"
+amazon-cognito-identity-js@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-2.0.3.tgz#38fb50f9c509be6d4aba491f8a901d8dd45f3a13"
   dependencies:
     buffer "4.9.1"
     crypto-browserify "1.0.9"
@@ -556,9 +556,9 @@ aws-sdk@^2.139.0:
     xml2js "0.4.17"
     xmlbuilder "4.2.1"
 
-aws-sdk@^2.217.1:
-  version "2.217.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.217.1.tgz#ed2d6113a54264727f985150407de69b0daed57f"
+aws-sdk@^2.218.1:
+  version "2.218.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.218.1.tgz#b4cf742cc0853bd7c868b388cbf0b4a1ef1abc12"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
