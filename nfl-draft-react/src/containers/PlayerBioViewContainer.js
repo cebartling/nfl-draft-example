@@ -14,21 +14,27 @@ class PlayerBioViewContainer extends Component {
     static defaultProps = {};
 
     state = {
-        lastNameSearch: ''
+        lastNameSearch: undefined,
+        selectedPosition: undefined
     };
 
     constructor(props) {
         super(props);
         this.handleOnClick = this.handleOnClick.bind(this);
         this.handleOnChange = this.handleOnChange.bind(this);
+        this.handleOnChangePosition = this.handleOnChangePosition.bind(this);
     }
 
     handleOnClick(e) {
-        this.setState({lastNameSearch: ''});
+        this.setState({lastNameSearch: undefined, selectedPosition: undefined});
     }
 
     handleOnChange(e) {
         this.setState({lastNameSearch: e.target.value});
+    }
+
+    handleOnChangePosition(e) {
+        this.setState({selectedPosition: e.target.value});
     }
 
     renderPlayers(players) {
@@ -43,8 +49,13 @@ class PlayerBioViewContainer extends Component {
         const {players} = this.props;
         let filteredPlayers = players;
         if (this.state.lastNameSearch) {
-            filteredPlayers = _.filter(players, (player) => {
+            filteredPlayers = _.filter(filteredPlayers, (player) => {
                 return player.LastName.startsWith(this.state.lastNameSearch);
+            });
+        }
+        if (this.state.selectedPosition) {
+            filteredPlayers = _.filter(filteredPlayers, (player) => {
+                return player.Position === this.state.selectedPosition;
             });
         }
 
@@ -64,6 +75,32 @@ class PlayerBioViewContainer extends Component {
                                        className="form-control mr-sm-2 mb-2 mt-2"
                                        id="searchInput"
                                        placeholder="Search by last name"/>
+                                <select id="positionDropdown"
+                                        className="form-control mr-sm-2 mb-2 mt-2"
+                                        onChange={this.handleOnChangePosition}
+                                        value={this.state.selectedPosition}>
+                                    <option value="">Select a position...</option>
+                                    <option value="S">Safety</option>
+                                    <option value="CB">Cornerback</option>
+                                    <option value="ILB">Inside Linebacker</option>
+                                    <option value="OLB">Outside Linebacker</option>
+                                    <option value="EDGE">Edge Rusher</option>
+                                    <option value="DL1T">Defensive Line (1 technique)</option>
+                                    <option value="DL3T">Defensive Line (3 technique)</option>
+                                    <option value="DL5T">Defensive Line (5 technique)</option>
+                                    <option value="OC">Offensive Line: Center</option>
+                                    <option value="OG">Offensive Line: Guard</option>
+                                    <option value="OT">Offensive Line: Tackle</option>
+                                    <option value="QB">Quarterback</option>
+                                    <option value="FB">Fullback</option>
+                                    <option value="RBC">Running Back (C)</option>
+                                    <option value="RBF">Running Back (F)</option>
+                                    <option value="WRF">Wide Receiver (Flanker)</option>
+                                    <option value="WRS">Wide Receiver (Slot)</option>
+                                    <option value="TE">Tight End</option>
+                                    <option value="P">Punter</option>
+                                    <option value="PK">Place Kicker</option>
+                                </select>
                                 <button type="button"
                                         onClick={this.handleOnClick}
                                         className="btn btn-secondary mb-2 mt-2">
