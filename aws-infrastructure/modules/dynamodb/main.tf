@@ -19,22 +19,30 @@ resource "aws_dynamodb_table" "players-table" {
     type = "S"
   }
 
-//
-//  attribute {
-//    name = "HeightInCentimeters"
-//    type = "N"
-//  }
-//
-//  attribute {
-//    name = "WeightInKilograms"
-//    type = "N"
-//  }
+  attribute {
+    name = "Position"
+    type = "S"
+  }
+
+  attribute {
+    name = "College"
+    type = "S"
+  }
+
+  attribute {
+    name = "HeightInMeters"
+    type = "N"
+  }
+
+  attribute {
+    name = "WeightInKilograms"
+    type = "N"
+  }
 
 //  ttl {
 //    attribute_name = "TimeToExist"
 //    enabled = false
 //  }
-//
 
   global_secondary_index {
     name = "PlayerLastNameIndex"

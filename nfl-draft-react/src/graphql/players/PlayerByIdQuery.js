@@ -7,7 +7,8 @@ query getNflDraftMachinePlayers($PlayerId: String!) {
         FirstName
         LastName
         Position
-        HeightInCentimeters
+        College
+        HeightInMeters
         WeightInKilograms
     }
 }`;
