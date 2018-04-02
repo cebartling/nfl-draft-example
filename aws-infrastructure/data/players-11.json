@@ -1,0 +1,571 @@
+{
+  "nfl-draft-machine-Players": [
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a59353e0-1845-0136-08c1-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.83"
+          },
+          "WeightInKilograms": {
+            "S": "145.15"
+          },
+          "Position": {
+            "S": "DL1T"
+          },
+          "FirstName": {
+            "S": "Daylon"
+          },
+          "LastName": {
+            "S": "Mack"
+          },
+          "College": {
+            "S": "Texas A&M"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5935611-1845-0136-08c2-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.93"
+          },
+          "WeightInKilograms": {
+            "S": "139.25"
+          },
+          "Position": {
+            "S": "OC"
+          },
+          "FirstName": {
+            "S": "Mason"
+          },
+          "LastName": {
+            "S": "Cole"
+          },
+          "College": {
+            "S": "Michigan"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5935841-1845-0136-08c3-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.90"
+          },
+          "WeightInKilograms": {
+            "S": "130.63"
+          },
+          "Position": {
+            "S": "DL5T"
+          },
+          "FirstName": {
+            "S": "Conor"
+          },
+          "LastName": {
+            "S": "Sheehy"
+          },
+          "College": {
+            "S": "Wisconsin"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5935a70-1845-0136-08c4-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.93"
+          },
+          "WeightInKilograms": {
+            "S": "118.84"
+          },
+          "Position": {
+            "S": "EDGE"
+          },
+          "FirstName": {
+            "S": "Ade"
+          },
+          "LastName": {
+            "S": "Aruna"
+          },
+          "College": {
+            "S": "Tulane"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5935c91-1845-0136-08c5-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.85"
+          },
+          "WeightInKilograms": {
+            "S": "127.91"
+          },
+          "Position": {
+            "S": "DL3T"
+          },
+          "FirstName": {
+            "S": "P.J."
+          },
+          "LastName": {
+            "S": "Hall"
+          },
+          "College": {
+            "S": "SHSU"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5935ec0-1845-0136-08c6-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.90"
+          },
+          "WeightInKilograms": {
+            "S": "95.25"
+          },
+          "Position": {
+            "S": "WRF"
+          },
+          "FirstName": {
+            "S": "Jester"
+          },
+          "LastName": {
+            "S": "Weah"
+          },
+          "College": {
+            "S": "Pittsburgh"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a59360e0-1845-0136-08c7-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.83"
+          },
+          "WeightInKilograms": {
+            "S": "81.19"
+          },
+          "Position": {
+            "S": "CB"
+          },
+          "FirstName": {
+            "S": "Levi"
+          },
+          "LastName": {
+            "S": "Wallace"
+          },
+          "College": {
+            "S": "Alabama"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5936300-1845-0136-08c8-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.96"
+          },
+          "WeightInKilograms": {
+            "S": "112.49"
+          },
+          "Position": {
+            "S": "TE"
+          },
+          "FirstName": {
+            "S": "Ethan"
+          },
+          "LastName": {
+            "S": "Wolf"
+          },
+          "College": {
+            "S": "Tennessee"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a59365b0-1845-0136-08c9-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.88"
+          },
+          "WeightInKilograms": {
+            "S": "92.99"
+          },
+          "Position": {
+            "S": "WRF"
+          },
+          "FirstName": {
+            "S": "Byron"
+          },
+          "LastName": {
+            "S": "Pringle"
+          },
+          "College": {
+            "S": "Kansas State"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a59367e0-1845-0136-08ca-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.85"
+          },
+          "WeightInKilograms": {
+            "S": "97.98"
+          },
+          "Position": {
+            "S": "RBF"
+          },
+          "FirstName": {
+            "S": "Jordan"
+          },
+          "LastName": {
+            "S": "Wilkins"
+          },
+          "College": {
+            "S": "Mississippi"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5936a01-1845-0136-08cb-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.90"
+          },
+          "WeightInKilograms": {
+            "S": "115.67"
+          },
+          "Position": {
+            "S": "EDGE"
+          },
+          "FirstName": {
+            "S": "Ebenezer"
+          },
+          "LastName": {
+            "S": "Ogundeko"
+          },
+          "College": {
+            "S": "Tennessee State"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5936c30-1845-0136-08cc-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.96"
+          },
+          "WeightInKilograms": {
+            "S": "134.72"
+          },
+          "Position": {
+            "S": "OG"
+          },
+          "FirstName": {
+            "S": "Sam"
+          },
+          "LastName": {
+            "S": "Jones"
+          },
+          "College": {
+            "S": "Arizona St"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5936e50-1845-0136-08cd-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.93"
+          },
+          "WeightInKilograms": {
+            "S": "114.76"
+          },
+          "Position": {
+            "S": "EDGE"
+          },
+          "FirstName": {
+            "S": "Kemoko"
+          },
+          "LastName": {
+            "S": "Turay"
+          },
+          "College": {
+            "S": "Rutgers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5937080-1845-0136-08ce-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.75"
+          },
+          "WeightInKilograms": {
+            "S": "84.37"
+          },
+          "Position": {
+            "S": "WRS"
+          },
+          "FirstName": {
+            "S": "Braxton"
+          },
+          "LastName": {
+            "S": "Berrios"
+          },
+          "College": {
+            "S": "Miami (FL)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a59372a0-1845-0136-08cf-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.98"
+          },
+          "WeightInKilograms": {
+            "S": "163.29"
+          },
+          "Position": {
+            "S": "DL1T"
+          },
+          "FirstName": {
+            "S": "Matt"
+          },
+          "LastName": {
+            "S": "Elam"
+          },
+          "College": {
+            "S": "Kentucky"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5937520-1845-0136-08d0-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.93"
+          },
+          "WeightInKilograms": {
+            "S": "139.71"
+          },
+          "Position": {
+            "S": "OT"
+          },
+          "FirstName": {
+            "S": "Martinas"
+          },
+          "LastName": {
+            "S": "Rankin"
+          },
+          "College": {
+            "S": "Mississippi State"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5937750-1845-0136-08d1-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.85"
+          },
+          "WeightInKilograms": {
+            "S": "94.80"
+          },
+          "Position": {
+            "S": "S"
+          },
+          "FirstName": {
+            "S": "Dane"
+          },
+          "LastName": {
+            "S": "Cruikshank"
+          },
+          "College": {
+            "S": "Arizona"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5937981-1845-0136-08d2-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.85"
+          },
+          "WeightInKilograms": {
+            "S": "90.72"
+          },
+          "Position": {
+            "S": "S"
+          },
+          "FirstName": {
+            "S": "Troy"
+          },
+          "LastName": {
+            "S": "Apke"
+          },
+          "College": {
+            "S": "Penn State"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5937ba0-1845-0136-08d4-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.88"
+          },
+          "WeightInKilograms": {
+            "S": "99.79"
+          },
+          "Position": {
+            "S": "QB"
+          },
+          "FirstName": {
+            "S": "Alex"
+          },
+          "LastName": {
+            "S": "McGough"
+          },
+          "College": {
+            "S": "Florida Int'l"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5937f21-1845-0136-08d5-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.85"
+          },
+          "WeightInKilograms": {
+            "S": "84.82"
+          },
+          "Position": {
+            "S": "CB"
+          },
+          "FirstName": {
+            "S": "Michael"
+          },
+          "LastName": {
+            "S": "Joseph"
+          },
+          "College": {
+            "S": "Dubuque"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PlayerId": {
+            "S": "a5938140-1845-0136-08d6-00fa5b489ec9"
+          },
+          "HeightInMeters": {
+            "S": "1.73"
+          },
+          "WeightInKilograms": {
+            "S": "86.18"
+          },
+          "Position": {
+            "S": "RBC"
+          },
+          "FirstName": {
+            "S": "Phillip"
+          },
+          "LastName": {
+            "S": "Lindsay"
+          },
+          "College": {
+            "S": "Colorado"
+          }
+        }
+      }
+    }
+  ]
+}

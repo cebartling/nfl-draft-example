@@ -1,0 +1,400 @@
+1	--	Josh Rosen	UCLA	QB	6'3"	210			
+2	+3	Saquon Barkley	Penn State	RBF	6'0"	233			
+3	 -1	Bradley Chubb	NC State	EDGE	6'4"	269			
+4	+18	Josh Allen	Wyoming	QB	6'5"	230			
+5	 -1	Sam Darnold	USC	QB	6'4"	225			
+6	 -3	Minkah Fitzpatrick	Alabama	S	6'0"	204			
+7	+18	Denzel Ward	Ohio State	CB	5'10"	183			
+8	 -2	Marcus Davenport	UTSA	EDGE	6'5"	264			
+9	+3	Quenton Nelson	Notre Dame	OG	6'5"	325			
+10	+6	Derwin James	Florida State	S	6'2"	215			
+11	+3	Derrius Guice	LSU	RBF	5'10"	224			
+12	 -1	Tremaine Edmunds	Virginia Tech	ILB	6'5"	250	OLB	-5	
+13	 -5	Mike McGlinchey	Notre Dame	OT	6'8"	309			
+14	 -4	Roquan Smith	Georgia	ILB	6'1"	225	OLB	-3	
+15	 -8	Baker Mayfield	Oklahoma	QB	6'0"	210			
+16	+7	Calvin Ridley	Alabama	WRF	6'1"	190			
+17	+10	Harold Landry	Boston College	EDGE	6'2"	252	OLB	-3	
+18	+1	Joshua Jackson	Iowa	CB	6'0"	196			
+19	 -1	Vita Vea	Washington	DL1T	6'4"	347			
+20	+16	Lamar Jackson	Louisville	QB	6'2"	205			
+21	 -9	Brian O'Neill	Pittsburgh	OT	6'7"	297			
+22	+1	Kolton Miller	UCLA	OT	6'9"	309			
+23	+5	Isaiah Oliver	Colorado	CB	6'0"	201			
+24	+13	Taven Bryan	Florida	DL3T	6'5"	291			
+25	 -5	Arden Key	LSU	EDGE	6'5"	238			
+26	 -10	Courtland Sutton	SMU	WRF	6'4"	225			
+27	+15	Maurice Hurst	Michigan	DL3T	6'1"	292			
+28	+19	Nick Chubb	Georgia	RBF	5'11"	227			
+29	+23	Ronnie Harrison	Alabama	S	6'2"	207			
+30	+25	Christian Kirk	Texas A&M	WRF	5'11"	201	WRS	-28	
+31	+79	Mike Hughes	UCF	CB	5'10"	189			
+32	+93	Uchenna Nwosu	USC	OLB	6'2"	251			
+33	 -2	Anthony Miller	Memphis	WRS	5'11"	190			
+34	+1	Isaiah Wynn	Georgia	OG	6'2"	313	OC	-151	
+35	 -19	Mason Rudolph	Oklahoma State	QB	6'4"	235			
+36	+70	D.J. Moore	Maryland	WRF	5'11"	215	WRS	-45	
+37	 -15	Leighton Vander Esch	Boise State	ILB	6'4"	240			
+38	+4	Holton Hill	Texas	CB	6'2"	196			
+39	 -1	Connor Williams	Texas	OT	6'5"	296			
+40	+3	Sam Hubbard	Ohio State	EDGE	6'5"	270			
+41	 -20	James Washington	Oklahoma State	WRF	6'0"	205			
+42	 -11	Ronald Jones II	USC	RBF	5'11"	205			
+43	+1	Will Hernandez	UTEP	OG	6'2"	327			
+44	+1	Da'Ron Payne	Alabama	DL1T	6'2"	311			
+45	+7	Jaire Alexander	Louisville	CB	5'10"	196			
+46	+8	Harrison Phillips	Stanford	DL1T	6'3"	307	DL3T	-27	
+47	+42	Lorenzo Carter	Georgia	EDGE	6'5"	250	OLB	-5	
+48	 -10	Braden Smith	Auburn	OG	6'6"	315			
+49	+30	Justin Reid	Stanford	S	6'0"	207			
+50	+13	Carlton Davis	Auburn	CB	6'1"	206			
+51	--	Chukwuma Okorafor	Western Michigan	OT	6'6"	320			
+52	 -6	Rashaan Evans	Alabama	ILB	6'2"	231			
+53	+1	Sony Michel	Georgia	RBF	5'11"	214			
+54	+32	Quenton Meeks	Stanford	CB	6'1"	209			
+55	+25	Kyzir White	West Virginia	S	6'2"	218			
+56	+44	Josey Jewell	Iowa	ILB	6'2"	230			
+57	 -23	Orlando Brown	Oklahoma	OT	6'8"	345			
+58	 -4	Frank Ragnow	Arkansas	OC	6'5"	312	OG	-140	
+59	 -28	Mark Andrews	Oklahoma	TE	6'5"	253			
+60	 -16	Royce Freeman	Oregon	RBF	5'11"	229			
+61	 -1	Da'Shawn Hand	Alabama	DL5T	6'4"	297			
+62	+18	Josh Sweat	Florida State	EDGE	6'4"	251			
+63	+81	Jessie Bates III	Wake Forest	S	6'1"	200			
+64	 -6	Dallas Goedert	S Dakota St	TE	6'4"	250			
+65	+45	Mike Gesicki	Penn State	TE	6'6"	252			
+66	+73	D.J. Chark	LSU	WRF	6'3"	187			
+67	 -4	Michael Gallup	Colorado St	WRF	6'1"	195			
+68	+96	Scott Quessenberry	UCLA	OG	6'4"	315	OC	-24	
+69	 -4	Kerryon Johnson	Auburn	RBF	5'11"	213			
+70	+44	Donte Jackson	LSU	CB	5'10"	178			
+71	 -3	Desmond Harrison	West Georgia	OT	6'6"	292			
+72	 -8	M.J. Stewart	North Carolina	CB	5'11"	200	S	-47	
+73	+30	Bradley Bozeman	Alabama	OC	6'5"	314			
+74	--	Brendan Mahon	Penn St	OG	6'4"	315			
+75	+7	RJ McIntosh	Miami	DL3T	6'4"	286			
+76	 -44	Ogbonnia Okoronkwo	Oklahoma	EDGE	6'2"	251	OLB	-14	
+77	 -14	Billy Price	Ohio State	OG	6'4"	305	OC	-22	
+78	 -7	Jeff Holland	Auburn	EDGE	6'1"	249	OLB	-67	
+79	 -7	Kalen Ballage	Arizona State	RBF	6'1"	228			
+80	+999	Isaac Yiadom	Boston College	CB	6'1"	190			
+81	+7	Rasheem Green	USC	DL5T	6'4"	275			
+82	+27	Dante Pettis	Washington	WRF	6'1"	185			
+83	+90	Duke Dawson	Florida	CB	5'11"	197			
+84	+27	Chase Litton	Marshall	QB	6'6"	211			
+85	 -11	Derrick Nnadi	Florida State	DL1T	6'1"	317			
+86	 -8	Deon Cain	Clemson	WRF	6'2"	200			
+87	+127	Anthony Averett	Alabama	CB	5'11"	183			
+88	+4	Marcell Ateman	Oklahoma State	WRF	6'4"	220			
+89	 -27	DeShon Elliott	Texas	S	6'1"	207			
+90	+2	DaeSean Hamilton	Penn State	WRF	6'1"	211			
+91	 -1	Christian Sam	Arizona State	ILB	6'2"	237			
+92	+5	Steven Richardson	Minnesota	DL3T	6'0"	300			
+93	+101	Simmie Cobbs Jr.	Indiana	WRF	6'4"	220			
+94	+67	Nyheim Hines	NC State	RBF	5'8"	198	RBC	-11	
+95	 -22	Dorance Armstrong	Kansas	EDGE	6'3"	257			
+96	+23	Trevon Young	Louisville	EDGE	6'4"	258			
+97	 -37	Deontay Burnett	USC	WRF	6'0"	170			
+98	+19	Darius Leonard	S Carolina State	OLB	6'2"	229			
+99	+28	Tyrell Crosby	Oregon	OT	6'5"	309			
+100	 -2	Tarvarus McFadden	Florida State	CB	6'2"	204		
+101	+68	Hayden Hurst	South Carolina	TE	6'5"	253			
+102	 -44	Luke Falk	Washington State	QB	6'3"	214			
+103	+35	Terrell Edmunds	Virginia Tech	S	6'0"	217			
+104	+44	Ito Smith	Southern Miss	RBC	5'9"	195			
+105	+1	Andrew Brown	Virginia	DL5T	6'3"	296			
+106	+155	Tony Brown	Alabama	CB	6'0"	199			
+107	 -22	Malik Jefferson	Texas	ILB	6'3"	238	OLB	-57	
+108	+81	Brandon Parker	N Carolina A&T	OT	6'8"	305			
+109	+132	Wyatt Teller	Virginia Tech	OG	6'5"	308			
+110	 -33	Mark Walton	Miami (FL)	RBF	5'10"	202			
+111	 -42	Marcell Frazier	Missouri	EDGE	6'5"	260			
+112	 -21	Jalyn Holmes	Ohio State	DL5T	6'5"	283			
+113	 -58	Kameron Kelly	San Diego St	S	6'2"	204			
+114	 -12	B.J. Hill	NC State	DL1T	6'3"	311	DL3T	-11	
+115	 -5	Poona Ford	Texas	DL3T	6'0"	300			
+116	+2	Rashaad Penny	San Diego St	RBF	5'11"	220			
+117	+120	Rashaan Gaulden	Tennessee	CB	6'1"	197			
+118	+28	Jaleel Scott	NMSU	WRF	6'6"	215			
+119	 -15	Akrum Wadley	Iowa	RBF	5'10"	194	RBC	-18	
+120	+92	Hercules Mata'afa	Washingston St	OLB	6'2"	254			
+121	 -78	Tegray Scales	Indiana	ILB	6'0"	230	OLB	-2	
+122	 -46	Mike White	W Kentucky	QB	6'3"	215			
+123	+8	Joshua Frazier	Alabama	DL1T	6'3"	321			
+124	 -45	Tre'Quan Smith	UCF	WRF	6'1"	209			
+125	 -21	Cedrick Wilson	Boise State	WRF	6'3"	188			
+126	 -5	Micah Kiser	Virginia	ILB	6'2"	240			
+127	 -3	Folorunso Fatukasi	Connecticut	DL3T	6'4"	318			
+128	+24	Kendrick Norton	Miami	DL1T	6'3"	314			
+129	+93	Joseph Noteboom	TCU	OT	6'5"	309			
+130	--	Tim Settle	VA Tech	DL1T	6'3"	329			
+131	 -64	Auden Tate	Florida State	WRF	6'5"	225			
+132	 -33	Riley Ferguson	Memphis	QB	6'4"	210			
+133	 -32	Sean Welsh	Iowa	OG	6'3"	295	OC	-210	
+134	--	Trenton Thompson	Georgia	DL3T	6'3"	288			
+135	+153	Shaquem Griffin	UCF	S	6'2"	229	OLB	-52	
+136	 -9	Kyle Lauletta	Richmond	QB	6'3"	216			
+137	+2	Jerome Baker	Ohio State	ILB	6'1"	225	OLB	-1	
+138	+11	Nick Nelson	Wisconsin	CB	5'11"	200			
+139	+45	James Daniels	Iowa	OC	6'3"	306			
+140	 -45	Josh Adams	Notre Dame	RBF	6'2"	213			
+141	 -1	Keke Coutee	Texas Tech	WRS	5'11"	180			
+142	 -11	Allen Lazard	Iowa State	WRF	6'5"	223			
+143	+11	Jordan Lasley	UCLA	WRF	6'1"	209			
+144	 -16	Bo Scarbrough	Alabama	RBF	6'1"	228			
+145	 -38	Marcus Allen	Penn State	S	6'2"	215			
+146	+68	Kevin Toliver II	LSU	CB	6'2"	192			
+147	 -5	Michael Hill	Ohio State	DL3T	6'2"	295			
+148	+7	Troy Fumagalli	Wisconsin	TE	6'5"	234			
+149	 -31	Quin Blanding	Virginia	S	6'2"	207			
+150	+44	Nathan Shepherd	Fort Hays State	DL3T	6'4"	315			
+151	+999	Kylie Fitts	Utah	EDGE	6'3"	253			
+152	--	Ike Boettger	Iowa	OT	6'5"	307			
+153	+5	Cam Phillips	Virginia Tech	WRF	6'0"	203			
+154	 -1	Lowell Lotulelei	Utah	DL1T	6'2"	315			
+155	+15	Kentavius Street	NC State	DL3T	6'2"	280			
+156	 -27	Justin Jones	NC State	DL1T	6'2"	309			
+158	 -36	D.J. Reed	Kansas St	CB	5'9"	188			
+159	+53	De'Asian Richardson	Louisville	DL1T	6'3"	322			
+160	+17	Will Geary	Kansas State	DL3T	6'0"	298			
+161	 -77	Azeem Victor	Washington	ILB	6'4"	240			
+162	--	J'Mon Moore	Missouri	WRF	6'3"	190			
+163	+1	J.C. Jackson	Maryland	CB	5'10"	201			
+164	 -31	Deadrin Senat	South Florida	DL3T	6'0"	314			
+165	+6	Kahlil McKenzie Jr.	Tennessee	DL1T	6'3"	314			
+166	+24	Will Clapp	LSU	OG	6'4"	311	OC	-145	
+167	+20	Justin Jackson	Northwestern	RBC	6'0"	199	RBF	-78	
+168	+15	John Kelly	Tennessee	RBF	5'10"	216			
+169	 -120	Chad Thomas	Miami (FL)	EDGE	6'5"	281			
+170	+15	Eddy Pineiro	Florida	PK	5'11"	178			
+171	 -82	Jaylen Samuels	NC State	FB	5'11"	236	TE	-224	
+172	+999	Roc Thomas	Jacksonville St	RBF	5'10"	198			
+173	 -1	Justin Crawford	West Virginia	RBF	5'11"	199			
+174	 -65	Jordan Whitehead	Pittsburgh	S	5'10"	198			
+175	+3	David Moa	Boise State	DL3T	6'3"	271			
+176	 -9	Breeland Speaks	Ole Miss	DL3T	6'3"	283			
+177	 -17	Ian Thomas	Indiana	TE	6'5"	248			
+178	 -92	Armani Watts	Texas A&M	S	5'10"	202			
+179	+36	Equanimeous St. Brown	Notre Dame	WRF	6'5"	204			
+180	 -9	Mike Ramsay	Duke	DL3T	6'2"	290			
+181	 -48	DeQuinton Osborne	Oklahoma State	DL3T	6'1"	305			
+182	+137	Dalyn Dawkins	Colorado State	RBC	5'9"	185			
+183	+7	Christian LaCouture	LSU	DL5T	6'4"	307			
+184	+21	Ryan Izzo	Florida State	TE	6'5"	245			
+185	 -13	Davin Bellamy	Georgia	OLB	6'4"	255			
+186	--	Du'Vonta Lampkin	Oklahoma	DL1T	6'4"	335			
+187	+190	Brandon Facyson	Virginia Tech	CB	6'1"	203			
+188	 -23	Kurt Benkert	Virginia	QB	6'4"	215			
+189	+42	Siran Neal	Jacksonville St	S	6'0"	206			
+190	+169	Marquis Haynes	Ole Miss	EDGE	6'2"	235			
+191	+999	Godwin Igwebuike	Northwestern	S	5'11"	213			
+192	 -92	Jamarco Jones	Ohio State	OT	6'4"	299			
+193	+999	Taron Johnson	Weber State	CB	5'11"	192			
+194	+34	Christopher Herndon	Miami (FL)	TE	6'4"	252			
+195	 -71	Trey Quinn	SMU	WRF	6'0"	203			
+196	+999	Dylan Cantrell	Texas Tech	WRF	6'3"	225			
+197	+173	Logan Woodside	Toledo	QB	6'2"	201			
+198	+29	Tanner Lee	Nebraska	QB	6'4"	220			
+199	+19	Dimitri Flowers	Oklahoma	FB	6'2"	248			
+200	+47	Greg Gilmore	LSU	DL1T	6'3"	313			
+201	+2	Richie James	MTSU	WRS	5'9"	180			
+202	+19	Michael Dickson	Texas	P	6'2"	209			
+203	 -1	James Looney	Cal	DL3T	6'3"	287			
+204	 -98	Duke Ejiofor	Wake Forest	EDGE	6'3"	264			
+205	+83	Fred Warner	BYU	OLB	6'3"	228			
+206	+1	Matthew McCrane	Kansas State	PK	5'10"	165			
+207	+22	Toby Weathersby	LSU	OT	6'4"	317			
+208	+122	Darrel Williams	LSU	RBF	6'1"	216			
+209	+13	Matthew Thomas	Florida State	ILB	6'4"	227	OLB	-74	
+210	 -13	Scott Pagano	Oregon	DL5T	6'3"	295			
+211	 -37	Olive Sagapolu	Wisconsin	DL1T	6'2"	340			
+212	 -19	Daylon Mack	Texas A&M	DL1T	6'0"	320			
+213	 -9	Mason Cole	Michigan	OC	6'4"	307			
+214	 -23	Conor Sheehy	Wisconsin	DL5T	6'3"	288			
+215	+999	Ade Aruna	Tulane	EDGE	6'4"	262			
+216	 -16	P.J. Hall	SHSU	DL3T	6'1"	282			
+217	 -39	Jester Weah	Pittsburgh	WRF	6'3"	210			
+218	 -29	Levi Wallace	Alabama	CB	6'0"	179			
+219	+77	Ethan Wolf	Tennessee	TE	6'5"	248			
+220	+5	Byron Pringle	Kansas State	WRF	6'2"	205			
+221	+999	Jordan Wilkins	Mississippi	RBF	6'1"	216			
+222	+75	Ebenezer Ogundeko	Tennessee State	EDGE	6'3"	255			
+223	+108	Sam Jones	Arizona St	OG	6'5"	297			
+224	 -66	Kemoko Turay	Rutgers	EDGE	6'4"	253			
+225	+23	Braxton Berrios	Miami (FL)	WRS	5'9"	186			
+226	+67	Matt Elam	Kentucky	DL1T	6'6"	360			
+227	 -147	Martinas Rankin	Mississippi State	OT	6'4"	308			
+228	+999	Dane Cruikshank	Arizona	S	6'1"	209			
+229	+999	Troy Apke	Penn State	S	6'1"	200			
+230	 -66	Alex McGough	Florida Int'l	QB	6'2"	220			
+231	+999	Michael Joseph	Dubuque	CB	6'1"	187			
+232	 -77	Phillip Lindsay	Colorado	RBC	5'8"	190			
+233	+147	K.C. McDermott	Miami (FL)	OT	6'7"	300			
+234	+81	Olasunkanmi Adeniyi	Toledo	EDGE	6'1"	248	OLB	-127	
+235	+999	Avonte Maddox	Pittsburgh	CB	5'9"	184			
+236	 -95	Coleman Shelton	Washington	OC	6'4"	297			
+237	 -42	Mike McCray	Michigan	ILB	6'4"	248			
+238	+12	Sebastian Joseph	Rutgers	DL5T	6'4"	295			
+239	 -13	Korey Robertson	Southern Miss	WRF	6'1"	210			
+240	 -25	Nathan Bazata	Iowa	DL3T	6'2"	285			
+241	 -18	Griffin Oakes	Indiana	PK	5'10"	198			
+242	 -10	Andre Smith	North Carolina	ILB	6'0"	240			
+243	+2	Devron Davis	UT-San Antonio	CB	6'0"	210			
+244	+45	Frank Herron	LSU	DL5T	6'4"	290			
+245	 -7	Jack Cichy	Wisconsin	ILB	6'2"	233			
+246	+9	Bruce Hector	South Florida	DL3T	6'2"	295			
+247	 -67	Cole Reyes	North Dakota	S	6'2"	215			
+248	+33	Michael Badgley	Miami (FL)	PK	5'10"	176			
+249	 -10	Kellen Soulek	So Dakota St	DL1T	6'4"	320			
+250	 -4	Filipo Mokofisi	Utah	DL3T	6'3"	280			
+251	 -9	Johnny Townsend	Florida	P	6'1"	210			
+252	+6	Darius Phillips	Western Michigan	CB	5'10"	193			
+253	 -19	Nifae Lealao	Vanderbilt	DL1T	6'5"	317			
+254	 -53	Brandon Silvers	Troy	QB	6'3"	219			
+255	+18	Dalton Schultz	Stanford	TE	6'6"	240			
+256	 -36	Tyquan Lewis	Ohio State	EDGE	6'3"	269			
+257	--	Ryan Nall	Oregon State	FB	6'2"	232	RBF	-53	
+258	 -34	Kyle Hicks	TCU	RBF	5'10"	204			
+259	 -115	Dorian O'Daniel	Clemson	OLB	6'1"	205			
+260	+999	Parry Nickerson	Tulane	CB	5'10"	182			
+261	 -127	Maea Teuhema	SE Louisiana	OG	6'5"	315			
+262	 -86	Damon Webb	Ohio State	S	5'11"	209			
+263	+79	Jeb Blazevich	Georgia	TE	6'5"	248			
+264	+11	Austin Corbett	Nevada	OC	6'4"	306	OT	-58	
+265	 -13	Daniel Carlson	Auburn	PK	6'4"	218			
+266	 -6	JoJo Wicker	Arizona State	DL5T	6'2"	296	EDGE	-122	
+267	 -18	Bilal Nichols	Delaware	DL5T	6'4"	306			
+268	+999	Jordan Akins	Central Florida	TE	6'4"	249			
+269	 -3	Antonio Callaway	Florida	WRS	5'11"	197			
+270	 -3	Shane Tripuka	Texas A&M	P	6'3"	209			
+271	+3	Peter Kalambayi	Stanford	OLB	6'2"	252	ILB	-72	
+272	+71	Brian Allen	Michigan State	OG	6'2"	304	OC	-11	
+273	+3	Mike Hughes Jr.	UNLV	DL1T	6'2"	315			
+274	 -80	Jake Wieneke	S Dakota St	WRF	6'4"	205			
+275	 -7	Henry Mondeaux	Oregon	DL5T	6'4"	280			
+276	+3	Keishawn Bierria	Wahington	ILB	6'2"	210			
+277	 -21	Jay-Tee Tiuli	Ea Washington	DL1T	6'3"	315			
+278	 -16	John Atkins	Georgia	DL1T	6'3"	321			
+279	+55	Larry Rose III	New Mexico St	RBC	5'11"	184			
+280	 -50	JaVon Rolland-Jones	Arkansas State	EDGE	6'2"	253			
+281	 -9	Demarcus Christmas	Florida State	DL1T	6'4"	308			
+282	 -5	Bentley Spain	North Carolina	OT	6'6"	300			
+283	+999	Davontae Harris	Illinois State	CB	5'11"	205			
+284	 -67	Khairi Clark	Florida	DL1T	6'2"	319			
+285	 -42	Drew Bailey	Louisville	DL5T	6'5"	285			
+286	 -77	Tracy Sprinkle	Ohio State	DL3T	6'3"	293			
+287	+27	Parker Cothren	Penn State	DL3T	6'4"	290			
+288	 -47	Darren Carrington II	Utah	WRF	6'2"	195			
+289	+28	Alex Cappa	Humboldt St	OT	6'6"	305			
+290	+999	Natrell Jamerson	Wisonsin	S	5'11"	201			
+291	 -112	Van Smith	Clemson	S	5'10"	186			
+292	+11	Drew Brown	Nebraska	PK	5'10"	204			
+293	 -32	Gaelin Elmore	ECU	DL5T	6'5"	275	EDGE	-110	
+294	+84	Leon Jacobs	Wisconsin	OLB	6'1"	246			
+295	+9	Khalid Hill	Michigan	FB	6'2"	263			
+296	+3	Chase Edmonds	Fordham	RBF	5'9"	205			
+297	 -101	Kendal Vickers	Tennessee	DL3T	6'3"	295			
+298	 -6	Ryan Santoso	Minnesota	P	6'5"	260			
+299	 -62	Andre Dillard	Washington St	OT	6'5"	300			
+300	+24	Marcus Baugh	Ohio State	TE	6'5"	258			
+301	 -47	James Hearns	Louisville	OLB	6'2"	239			
+302	+16	Zaycoven Henderson	Texas A&M	DL3T	6'1"	298			
+303	 -97	Lavon Coleman	Washington	RBF	5'11"	215			
+304	+7	Johnny Dwight	Alabama	DL1T	6'3"	301			
+305	+88	Cole Madison	Washington St	OT	6'5"	314			
+306	+7	Cam Serigne	Wake Forest	TE	6'3"	245			
+307	 -99	Nic Shimonek	Texas Tech	QB	6'3"	225			
+308	 -75	Kendall Joseph	Clemson	ILB	6'0"	230			
+309	+999	Greg Stroman	Virginia Tech	CB	5'11"	182			
+310	 -25	Kenny Young	UCLA	ILB	6'1"	240			
+311	 -176	Justin Lawler	SMU	EDGE	6'4"	251			
+312	+4	Aidan Schneider	Oregon	PK	6'4"	235			
+313	 -11	Joseph Davidson	Bowling Green	P	6'7"	228			
+314	+999	Trey Walker	LA-Lafayette	S	6'1"	206			
+315	+22	Jalen Wilkerson	Florida State	DL5T	6'5"	285			
+316	+11	Nick Thurman	Houston	DL3T	6'4"	293	DL5T	-28	
+317	+24	Anthony Moten	Miami	DL1T	6'4"	315			
+318	 -170	Jaylon Ferguson	LA Tech	EDGE	6'5"	255			
+319	+29	Billy Hirschfeld	Wisconsin	DL5T	6'5"	290			
+320	+32	John Franklin-Myers	Stephen F. Austin	DL5T	6'4"	283			
+321	 -68	Skyler Phillips	Idaho St	OG	6'2"	322			
+322	 -17	Jeffrey Wilson	North Texas	RBF	6'0"	225			
+323	 -1	Nick Bawden	San Diego State	FB	6'3"	245			
+324	 -14	Shaun Dion Hamilton	Alabama	ILB	6'0"	232			
+325	 -17	Oren Burks	Vanderbilt	OLB	6'3"	230	ILB	-92	
+326	+999	Anthony Winbush	Ball State	EDGE	6'1"	249			
+327	+26	DeAndre Goolsby	Florida	TE	6'4"	245			
+328	+16	J.K. Scott	Alabama	P	6'5"	195			
+329	 -58	Daurice Fountain	Northern Iowa	WRF	6'1"	210			
+330	 -46	Dalton Keene	Illinois State	DL3T	6'3"	282			
+331	+91	Quinton Flowers	South Florida	QB	6'0"	210			
+332	 -81	Bijhon Jackson	Arkansas	DL1T	6'2"	335			
+333	 -68	Tyrone Crowder	Clemson	OG	6'2"	340			
+334	+999	Chris Warren III	Texas	RBF	6'2"	247			
+335	 -29	Taylor Stallworth	South Carolina	DL1T	6'2"	312			
+336	+999	Tre Flowers	Oklahoma St	S	6'3"	202			
+337	 -74	Travin Howard	TCU	OLB	6'0"	212			
+338	 -43	Larry Tharpe Jr.	Arizona	DL5T	6'5"	280			
+339	 -14	Ray Ray McCloud	Clemson	WRS	5'10"	181			
+340	+999	Max Redfield	Indiana (PA)	S	6'1"	199			
+341	+999	Dee Delaney	Miami (FL)	CB	5'11"	200			
+342	 -52	Bryce Bobo	Colorado	WRF	6'1"	201			
+343	 -108	Jamar Summers	Connecticut	S	6'0"	185			
+344	 -53	Jordan Thomas	Mississippi State	TE	6'5"	280	CB	-32	
+345	+2	Austin MacGinnis	Kentucky	PK	5'10"	180			
+346	+86	Colby Gossett	Appalachian St	OG	6'5"	311			
+347	+999	Grant Haley	Penn State	CB	5'9"	190			
+348	 -104	Dominick Sanders	Georgia	S	5'11"	193			
+349	+7	Matt Dickerson	UCLA	DL3T	6'5"	292			
+350	 -196	Joe Ostman	Central Michigan	EDGE	6'3"	255			
+351	 -1	Tony Mekari	Cal	DL3T	6'1"	280			
+352	 -23	Chris Worley	Ohio State	ILB	6'2"	225			
+353	+999	Donnie Ernsberger	Western Michigan	FB	6'3"	241			
+354	 -8	Eddy Wilson	Purdue	DL3T	6'3"	301			
+355	 -54	Justin Watson	Penn	WRF	6'3"	215			
+356	+19	Brandon Lingen	Minnesota	TE	6'5"	250			
+357	 -57	Will Richardson	North Carolina St	OT	6'6"	306			
+358	+999	Chris Campbell	Penn State	CB	6'1"	195			
+359	 -77	Kyle Allen	Houston	QB	6'3"	210			
+360	 -144	Kamryn Pettway	Auburn	RBF	6'0"	233			
+361	+999	Chad Whitener	Oklahoma State	ILB	6'0"	248			
+362	 -64	Nick DeLuca	North Dakota St	OLB	6'3"	245			
+363	--	Jarvion Franklin	Western Michigan	RBF	5'11"	239			
+364	 -43	Jay Woods	Vanderbilt	DL3T	6'3"	285			
+365	+999	Frank Ginda	San Jose St	ILB	6'1"	245			
+366	 -1	Jamar King	Alabama	DL5T	6'4"	290			
+367	 -16	Will Gleeson	Ole Miss	P	6'3"	190			
+368	 -2	Jeff Badet	Oklahoma	WRS	5'11"	183			
+369	 -75	Nick Stevens	Colorado St	QB	6'3"	200			
+370	 -25	Garret Dooley	Wisconsin	OLB	6'2"	248			
+371	+999	Demario Richard	Arizona State	RBF	5'9"	218			
+372	 -85	Dalton Risner	Kansas St	OT	6'5"	300			
+373	+9	Jason Cabinda	Penn State	ILB	6'1"	232			
+374	+14	David Wells	San Diego St	TE	6'5"	255			
+375	 -49	Javon Wims	Georgia	WRF	6'4"	215			
+376	+52	K.J. Malone	LSU	OG	6'4"	321			
+377	 -99	Jacob Pugh	Florida State	EDGE	6'4"	229	OLB	-15	
+378	 -18	Trevor Daniel	Tennessee	P	6'1"	248			
+379	 -30	J.D. Moore	LSU	FB	6'4"	235			
+380	+999	Joshua Kalu	Nebraska	S	6'0"	203			
+381	 -48	Genard Avery	Memphis	ILB	6'1"	220			
+382	 -70	Larry Allen Jr.	Harvard	OG	6'3"	290			
+383	 -63	Steve Ishmael	Syracuse	WRF	6'2"	209			
+384	 -30	Austin Golson	Auburn	OC	6'4"	314			
+385	+10	Danny Friend	Indiana	TE	6'5"	260			
+386	 -48	Zachary Crabtree	Oklahoma St	OT	6'7"	310			
+387	 -26	Joel Iyiegbuniwe	W Kentucky	OLB	6'1"	230			
+388	 -119	Ralph Webb	Vanderbilt	RBF	5'10"	202			
+389	 -50	Devonte Boyd	UNLV	WRF	6'1"	185			
+390	 -83	Jamar McGloster	Syracuse	OT	6'7"	302			
+391	 -24	Nick Sharga	Temple	FB	6'2"	240			
+392	 -52	Jamil Demby	Maine	OG	6'4"	319			
+393	+999	Stephen Roberts	Auburn	S	5'11"	186			
+394	 -20	Sam Mustipher	Notre Dame	OC	6'2"	305			
+395	 -86	Deion Harris	North Dakota	CB	6'2"	182			
+396	 -13	Janarion Grant	Rutgers	WRS	5'10"	172			
+397	 -33	Brett Toth	Army	OT	6'5"	305			
+398	 -118	D'Ernest Johnson	USF	RBF	5'10"	208			
+399	+999	Joel Lanning	Iowa State	ILB	6'2"	232			
+400	+999	Jesse Aniebonam	Maryland	EDGE	6'3"	259	
+157 +28 Durham Smythe   Notre Dame  TE  6'4"    245

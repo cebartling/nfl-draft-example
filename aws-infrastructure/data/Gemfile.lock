@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    macaddr (1.7.1)
+      systemu (~> 2.6.2)
+    systemu (2.6.5)
+    uuid (2.3.8)
+      macaddr (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  uuid
+
+BUNDLED WITH
+   1.16.1
