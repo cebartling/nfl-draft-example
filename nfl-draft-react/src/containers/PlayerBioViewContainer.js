@@ -14,7 +14,7 @@ class PlayerBioViewContainer extends Component {
     static defaultProps = {};
 
     state = {
-        value: ''
+        lastNameSearch: ''
     };
 
     constructor(props) {
@@ -24,11 +24,11 @@ class PlayerBioViewContainer extends Component {
     }
 
     handleOnClick(e) {
-        this.setState({value: ''});
+        this.setState({lastNameSearch: ''});
     }
 
     handleOnChange(e) {
-        this.setState({value: e.target.value});
+        this.setState({lastNameSearch: e.target.value});
     }
 
     renderPlayers(players) {
@@ -42,9 +42,9 @@ class PlayerBioViewContainer extends Component {
     render() {
         const {players} = this.props;
         let filteredPlayers = players;
-        if (this.state.value) {
+        if (this.state.lastNameSearch) {
             filteredPlayers = _.filter(players, (player) => {
-                return player.LastName.startsWith(this.state.value);
+                return player.LastName.startsWith(this.state.lastNameSearch);
             });
         }
 
@@ -59,11 +59,11 @@ class PlayerBioViewContainer extends Component {
                                 <label className="sr-only"
                                        htmlFor="searchInput">Search input</label>
                                 <input type="text"
-                                       value={this.state.value}
+                                       value={this.state.lastNameSearch}
                                        onChange={this.handleOnChange}
                                        className="form-control mr-sm-2 mb-2 mt-2"
                                        id="searchInput"
-                                       placeholder="Search for player"/>
+                                       placeholder="Search by last name"/>
                                 <button type="button"
                                         onClick={this.handleOnClick}
                                         className="btn btn-secondary mb-2 mt-2">
@@ -75,10 +75,9 @@ class PlayerBioViewContainer extends Component {
                             <table className="table table-bordered table-hover table-responsive-sm table-striped">
                                 <thead>
                                 <tr>
-                                    <th>Pick</th>
                                     <th className="text-left">Name</th>
                                     <th className="text-left">Position</th>
-                                    <th className="text-left">Drafting Team</th>
+                                    <th className="text-left">College</th>
                                 </tr>
                                 </thead>
                                 <tbody>

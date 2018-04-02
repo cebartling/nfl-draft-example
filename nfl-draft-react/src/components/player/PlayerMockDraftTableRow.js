@@ -10,14 +10,13 @@ class PlayerMockDraftTableRow extends Component {
     static defaultProps = {};
 
     render() {
-        const {pick, player} = this.props;
+        const {player} = this.props;
 
         return (
             <tr key={player.PlayerId}>
-                <td>{pick}</td>
                 <td className="text-left">{player.FirstName} {player.LastName}</td>
                 <td className="text-left">{player.Position}</td>
-                <td className="text-left">Green Bay Packers</td>
+                <td className="text-left">{player.College}</td>
             </tr>
         );
     }
