@@ -14,27 +14,33 @@ class PlayerBioViewContainer extends Component {
     static defaultProps = {};
 
     state = {
-        lastNameSearch: undefined,
-        selectedPosition: undefined
+        lastNameFilter: undefined,
+        collegeFilter: undefined,
+        positionFilter: undefined
     };
 
     constructor(props) {
         super(props);
-        this.handleOnClick = this.handleOnClick.bind(this);
-        this.handleOnChange = this.handleOnChange.bind(this);
-        this.handleOnChangePosition = this.handleOnChangePosition.bind(this);
+        this.handleOnClickResetFormFields = this.handleOnClickResetFormFields.bind(this);
+        this.handeOnChangeLastNameFilter = this.handeOnChangeLastNameFilter.bind(this);
+        this.handeOnChangeCollegeFilter = this.handeOnChangeCollegeFilter.bind(this);
+        this.handleOnChangePositionFilter = this.handleOnChangePositionFilter.bind(this);
     }
 
-    handleOnClick(e) {
-        this.setState({lastNameSearch: undefined, selectedPosition: undefined});
+    handleOnClickResetFormFields(e) {
+        this.setState({lastNameFilter: '', collegeFilter: '', positionFilter: undefined});
     }
 
-    handleOnChange(e) {
-        this.setState({lastNameSearch: e.target.value});
+    handeOnChangeLastNameFilter(e) {
+        this.setState({lastNameFilter: e.target.value});
     }
 
-    handleOnChangePosition(e) {
-        this.setState({selectedPosition: e.target.value});
+    handeOnChangeCollegeFilter(e) {
+        this.setState({collegeFilter: e.target.value});
+    }
+
+    handleOnChangePositionFilter(e) {
+        this.setState({positionFilter: e.target.value});
     }
 
     renderPlayers(players) {
@@ -48,14 +54,19 @@ class PlayerBioViewContainer extends Component {
     render() {
         const {players} = this.props;
         let filteredPlayers = players;
-        if (this.state.lastNameSearch) {
+        if (this.state.lastNameFilter) {
             filteredPlayers = _.filter(filteredPlayers, (player) => {
-                return player.LastName.startsWith(this.state.lastNameSearch);
+                return player.LastName.startsWith(this.state.lastNameFilter);
             });
         }
-        if (this.state.selectedPosition) {
+        if (this.state.collegeFilter) {
             filteredPlayers = _.filter(filteredPlayers, (player) => {
-                return player.Position === this.state.selectedPosition;
+                return player.College.startsWith(this.state.collegeFilter);
+            });
+        }
+        if (this.state.positionFilter) {
+            filteredPlayers = _.filter(filteredPlayers, (player) => {
+                return player.Position === this.state.positionFilter;
             });
         }
 
@@ -68,17 +79,17 @@ class PlayerBioViewContainer extends Component {
                         <div className="row">
                             <form className="form-inline mx-auto p-2">
                                 <label className="sr-only"
-                                       htmlFor="searchInput">Search input</label>
+                                       htmlFor="FilterInput">Filter input</label>
                                 <input type="text"
-                                       value={this.state.lastNameSearch}
-                                       onChange={this.handleOnChange}
+                                       value={this.state.lastNameFilter}
+                                       onChange={this.handeOnChangeLastNameFilter}
                                        className="form-control mr-sm-2 mb-2 mt-2"
-                                       id="searchInput"
-                                       placeholder="Search by last name"/>
+                                       id="FilterInput"
+                                       placeholder="Filter by last name"/>
                                 <select id="positionDropdown"
                                         className="form-control mr-sm-2 mb-2 mt-2"
-                                        onChange={this.handleOnChangePosition}
-                                        value={this.state.selectedPosition}>
+                                        onChange={this.handleOnChangePositionFilter}
+                                        value={this.state.positionFilter ? this.state.positionFilter : ''}>
                                     <option value="">Select a position...</option>
                                     <option value="S">Safety</option>
                                     <option value="CB">Cornerback</option>
@@ -101,8 +112,16 @@ class PlayerBioViewContainer extends Component {
                                     <option value="P">Punter</option>
                                     <option value="PK">Place Kicker</option>
                                 </select>
+                                <label className="sr-only"
+                                       htmlFor="collegeInput">Filter input</label>
+                                <input type="text"
+                                       value={this.state.collegeFilter}
+                                       onChange={this.handeOnChangeCollegeFilter}
+                                       className="form-control mr-sm-2 mb-2 mt-2"
+                                       id="collegeInput"
+                                       placeholder="Filter by college"/>
                                 <button type="button"
-                                        onClick={this.handleOnClick}
+                                        onClick={this.handleOnClickResetFormFields}
                                         className="btn btn-secondary mb-2 mt-2">
                                     <i className="fa fa-eraser"/>
                                 </button>
