@@ -132,7 +132,9 @@ class PlayerBioViewContainer extends Component {
                                 <thead>
                                 <tr>
                                     <th className="text-left">Name</th>
-                                    <th className="text-left">Position</th>
+                                    <th className="text-center">Height</th>
+                                    <th className="text-center">Weight</th>
+                                    <th className="text-center">Position</th>
                                     <th className="text-left">College</th>
                                 </tr>
                                 </thead>

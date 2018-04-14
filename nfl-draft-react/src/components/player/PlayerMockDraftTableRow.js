@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {PropTypes} from 'prop-types';
+import {convertHeight} from '../../utils/ConvertHeight';
+import {convertWeight} from '../../utils/ConvertWeight';
 
 class PlayerMockDraftTableRow extends Component {
     static propTypes = {
@@ -15,7 +17,9 @@ class PlayerMockDraftTableRow extends Component {
         return (
             <tr key={player.PlayerId}>
                 <td className="text-left">{player.FirstName} {player.LastName}</td>
-                <td className="text-left">{player.Position}</td>
+                <td className="text-center">{convertHeight(player.HeightInMeters)}</td>
+                <td className="text-center">{convertWeight(player.WeightInKilograms)}</td>
+                <td className="text-center">{player.Position}</td>
                 <td className="text-left">{player.College}</td>
             </tr>
         );
