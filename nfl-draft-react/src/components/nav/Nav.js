@@ -11,7 +11,7 @@ class Nav extends Component {
     }
 
     render() {
-        const { match, location, history } = this.props;
+        const {location} = this.props;
         console.log(`You are now at ${location.pathname}`);
 
         let homeClassNames = classNames({
@@ -34,8 +34,12 @@ class Nav extends Component {
         return (
             <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
                 <Link className="navbar-brand" to="/">NFL Draft Machine</Link>
-                <button className="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+                <button className="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarsExampleDefault"
+                        aria-controls="navbarsExampleDefault"
+                        aria-expanded="false"
                         aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"/>
                 </button>
