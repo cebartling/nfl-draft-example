@@ -1,0 +1,137 @@
+1,1,1,Cleveland Browns
+1,2,2,New York Giants
+1,3,3,New York Jets from Indianapolis Colts
+1,4,4,Cleveland Browns from Houston Texans
+1,5,5,Denver Broncos
+1,6,6,Indianapolis Colts from New York Jets
+1,7,7,Tampa Bay Buccaneers
+1,8,8,Chicago Bears
+1,9,9,San Francisco 49ers
+1,10,10,Oakland Raiders
+1,11,11,Miami Dolphins
+1,12,12,Buffalo Bills from Cincinnati Bengals
+1,13,13,Washington Redskins
+1,14,14,Green Bay Packers
+1,15,15,Arizona Cardinals
+1,16,16,Baltimore Ravens
+1,17,17,Los Angeles Chargers
+1,18,18,Seattle Seahawks
+1,19,19,Dallas Cowboys
+1,20,20,Detroit Lions
+1,21,21,Cincinnati Bengals from Buffalo Bills
+1,22,22,Buffalo Bills from Kansas City Chiefs
+1,23,23,New England Patriots from Los Angeles Rams
+1,24,24,Carolina Panthers
+1,25,25,Tennessee Titans
+1,26,26,Atlanta Falcons
+1,27,27,New Orleans Saints
+1,28,28,Pittsburgh Steelers
+1,29,29,Jacksonville Jaguars
+1,30,30,Minnesota Vikings
+1,31,31,New England Patriots
+1,32,32,Philadelphia Eagles
+2,1,33,Cleveland Browns
+2,2,34,New York Giants
+2,3,35,Cleveland Browns from Houston Texans
+2,4,36,Indianapolis Colts
+2,5,37,Indianapolis Colts from New York Jets
+2,6,38,Tampa Bay Buccaneers
+2,7,39,Chicago Bears
+2,8,40,Denver Broncos
+2,9,41,Oakland Raiders
+2,10,42,Miami Dolphins
+2,11,43,New England Patriots from San Francisco 49ers
+2,12,44,Washington Redskins
+2,13,45,Green Bay Packers
+2,14,46,Cincinnati Bengals
+2,15,47,Arizona Cardinals
+2,16,48,Los Angeles Chargers
+2,17,49,Indianapolis Colts from New York Jets through Seattle Seahawks
+2,18,50,Dallas Cowboys
+2,19,51,Detroit Lions
+2,20,52,Baltimore Ravens
+2,21,53,Buffalo Bills
+2,22,54,Kansas City Chiefs
+2,23,55,Carolina Panthers
+2,24,56,Buffalo Bills from Los Angeles Rams
+2,25,57,Tennesse Titans
+2,26,58,Atlanta Falcons
+2,27,59,San Francisco 49ers from New Orleans Saints
+2,28,60,Pittsburgh Steelers
+2,29,61,Jacksonville Jaguars
+2,30,62,Minnesota Vikings
+2,31,63,New England Patriots
+2,32,64,Cleveland Browns from Philadelphia Eagles
+3,1,65,Buffalo Bills from Cleveland Browns
+3,2,66,New York Giants
+3,3,67,Indianapolis Colts
+3,4,68,Houston Texans
+3,5,69,New York Giants from Tampa Bay Buccaneers
+3,6,70,San Francisco 49ers from Chicago Bears
+3,7,71,Denver Broncos
+3,8,72,New York Jets
+3,9,73,Miami Dolphins
+3,10,74,San Francisco 49ers
+3,11,75,Oakland Raiders
+3,12,76,Green Bay Packers
+3,13,77,Cincinnati Bengals
+3,14,78,Kansas City Chiefs from Washington Redskins
+3,15,79,Arizona Cardinals
+3,16,80,Houston Texans from Seattle Seahawks
+3,17,81,Dallas Cowboys
+3,18,82,Detroit Lions
+3,19,83,Baltimore Ravens
+3,20,84,Los Angeles Chargers
+3,21,85,Carolina Panthers from Buffalo Bills
+3,22,86,Kansas City Chiefs
+3,23,87,Los Angeles Rams
+3,24,88,Carolina Panthers
+3,25,89,Tennessee Titans
+3,26,90,Atlanta Falcons
+3,27,91,New Orleans Saints
+3,28,92,Pittsburgh Steelers
+3,29,93,Jacksonville Jaguars
+3,30,94,Minnesota Vikings
+3,31,95,New England Patriots
+3,32,96,Buffalo Bills from Philadelphia Eagles
+3,33,97,Arizona Cardinals (Compensatory)
+3,34,98,Houston Texans (Compensatory)
+3,35,99,Denver Broncos (Compensatory)
+3,36,100,Cincinnati Bengals (Compensatory)
+4,1,101,Green Bay Packers from Cleveland Browns
+4,2,102,Tampa Bay Buccaneers from New York Giants
+4,3,103,Houston Texans
+4,4,104,Indianapolis Colts
+4,5,105,Chicago Bears
+4,6,106,Denver Broncos
+4,7,107,New York Jets
+4,8,108,New York Giants from Tampa Bay Buccaneers
+4,9,109,Washington Redskins from Denver Broncos through San Francisco 49ers
+4,10,110,Oakland Raiders
+4,11,111,Los Angeles Rams from Miami Dolphins
+4,12,112,Cincinnati Bengals
+4,13,113,Denver Broncos from Washington Redskins
+4,14,114,Cleveland Browns from Green Bay Packers
+4,15,115,Chicago Bears from Arizona Cardinals
+4,16,116,Dallas Cowboys
+4,17,117,Detroit Lions
+4,18,118,Baltimore Ravens
+4,19,119,Los Angeles Chargers
+4,20,120,Seattle Seahawks
+4,21,121,Buffalo Bills
+4,22,122,Kansas City Chiefs
+4,23,123,Miami Dolphins from Cleveland Browns through Carolina Panthers
+4,24,124,Kansas City Chiefs from Los Angeles Rams
+4,25,125,Tennessee Titans
+4,26,126,Atlanta Falcons
+4,27,127,New Orleans Saints
+4,28,128,San Francisco 49ers from Pittsburgh Steelers
+4,29,129,Jacksonville Jaguars
+4,30,130,Philadelphia Eagles from Minnesota Vikings
+4,31,131,Miami Dolphins from New England Patriots through Philadelphia Eagles
+4,32,132,Philadelphia Eagles
+4,33,133,Green Bay Packers (Compensatory)
+4,34,134,Arizona Cardinals (Compensatory)
+4,35,135,Los Angeles Rams from New York Giants (Compensatory)
+4,36,136,Los Angeles Rams from New England Patriots (Compensatory)
+4,37,137,Dallas Cowboys (Compensatory)
