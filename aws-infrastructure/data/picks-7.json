@@ -1,0 +1,235 @@
+{
+  "nfl-draft-machine-Picks": [
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed37730-228d-0136-93ce-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "27"
+          },
+          "OverallPick": {
+            "S": "127"
+          },
+          "Team": {
+            "S": "New Orleans Saints"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed37990-228d-0136-93cf-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "28"
+          },
+          "OverallPick": {
+            "S": "128"
+          },
+          "Team": {
+            "S": "San Francisco 49ers from Pittsburgh Steelers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed37bc0-228d-0136-93d0-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "29"
+          },
+          "OverallPick": {
+            "S": "129"
+          },
+          "Team": {
+            "S": "Jacksonville Jaguars"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed37e00-228d-0136-93d1-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "30"
+          },
+          "OverallPick": {
+            "S": "130"
+          },
+          "Team": {
+            "S": "Philadelphia Eagles from Minnesota Vikings"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed38030-228d-0136-93d2-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "31"
+          },
+          "OverallPick": {
+            "S": "131"
+          },
+          "Team": {
+            "S": "Miami Dolphins from New England Patriots through Philadelphia Eagles"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed38270-228d-0136-93d3-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "32"
+          },
+          "OverallPick": {
+            "S": "132"
+          },
+          "Team": {
+            "S": "Philadelphia Eagles"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed384a0-228d-0136-93d4-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "33"
+          },
+          "OverallPick": {
+            "S": "133"
+          },
+          "Team": {
+            "S": "Green Bay Packers (Compensatory)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed386c0-228d-0136-93d5-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "34"
+          },
+          "OverallPick": {
+            "S": "134"
+          },
+          "Team": {
+            "S": "Arizona Cardinals (Compensatory)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed388f0-228d-0136-93d6-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "35"
+          },
+          "OverallPick": {
+            "S": "135"
+          },
+          "Team": {
+            "S": "Los Angeles Rams from New York Giants (Compensatory)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed38bb0-228d-0136-93d7-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "36"
+          },
+          "OverallPick": {
+            "S": "136"
+          },
+          "Team": {
+            "S": "Los Angeles Rams from New England Patriots (Compensatory)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed38df0-228d-0136-93d8-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "4"
+          },
+          "Pick": {
+            "S": "37"
+          },
+          "OverallPick": {
+            "S": "137"
+          },
+          "Team": {
+            "S": "Dallas Cowboys (Compensatory)"
+          }
+        }
+      }
+    }
+  ]
+}

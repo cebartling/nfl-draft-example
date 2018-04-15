@@ -1,0 +1,445 @@
+{
+  "nfl-draft-machine-Picks": [
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed0b560-228d-0136-9344-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "1"
+          },
+          "OverallPick": {
+            "S": "1"
+          },
+          "Team": {
+            "S": "Cleveland Browns"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1aa00-228d-0136-9345-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "2"
+          },
+          "OverallPick": {
+            "S": "2"
+          },
+          "Team": {
+            "S": "New York Giants"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1ae80-228d-0136-9346-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "3"
+          },
+          "OverallPick": {
+            "S": "3"
+          },
+          "Team": {
+            "S": "New York Jets from Indianapolis Colts"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1b1a0-228d-0136-9347-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "4"
+          },
+          "OverallPick": {
+            "S": "4"
+          },
+          "Team": {
+            "S": "Cleveland Browns from Houston Texans"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1b4e0-228d-0136-9348-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "5"
+          },
+          "OverallPick": {
+            "S": "5"
+          },
+          "Team": {
+            "S": "Denver Broncos"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1b7d0-228d-0136-9349-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "6"
+          },
+          "OverallPick": {
+            "S": "6"
+          },
+          "Team": {
+            "S": "Indianapolis Colts from New York Jets"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1bad0-228d-0136-934a-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "7"
+          },
+          "OverallPick": {
+            "S": "7"
+          },
+          "Team": {
+            "S": "Tampa Bay Buccaneers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1bdb0-228d-0136-934b-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "8"
+          },
+          "OverallPick": {
+            "S": "8"
+          },
+          "Team": {
+            "S": "Chicago Bears"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1c0b0-228d-0136-934c-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "9"
+          },
+          "OverallPick": {
+            "S": "9"
+          },
+          "Team": {
+            "S": "San Francisco 49ers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1c340-228d-0136-934d-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "10"
+          },
+          "OverallPick": {
+            "S": "10"
+          },
+          "Team": {
+            "S": "Oakland Raiders"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1c5c0-228d-0136-934e-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "11"
+          },
+          "OverallPick": {
+            "S": "11"
+          },
+          "Team": {
+            "S": "Miami Dolphins"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1c860-228d-0136-934f-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "12"
+          },
+          "OverallPick": {
+            "S": "12"
+          },
+          "Team": {
+            "S": "Buffalo Bills from Cincinnati Bengals"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1cab1-228d-0136-9350-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "13"
+          },
+          "OverallPick": {
+            "S": "13"
+          },
+          "Team": {
+            "S": "Washington Redskins"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1cda1-228d-0136-9351-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "14"
+          },
+          "OverallPick": {
+            "S": "14"
+          },
+          "Team": {
+            "S": "Green Bay Packers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1cfe0-228d-0136-9352-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "15"
+          },
+          "OverallPick": {
+            "S": "15"
+          },
+          "Team": {
+            "S": "Arizona Cardinals"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1d240-228d-0136-9353-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "16"
+          },
+          "OverallPick": {
+            "S": "16"
+          },
+          "Team": {
+            "S": "Baltimore Ravens"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1d490-228d-0136-9354-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "17"
+          },
+          "OverallPick": {
+            "S": "17"
+          },
+          "Team": {
+            "S": "Los Angeles Chargers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1d6f0-228d-0136-9355-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "18"
+          },
+          "OverallPick": {
+            "S": "18"
+          },
+          "Team": {
+            "S": "Seattle Seahawks"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1d970-228d-0136-9356-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "19"
+          },
+          "OverallPick": {
+            "S": "19"
+          },
+          "Team": {
+            "S": "Dallas Cowboys"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1db61-228d-0136-9357-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "20"
+          },
+          "OverallPick": {
+            "S": "20"
+          },
+          "Team": {
+            "S": "Detroit Lions"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PickId": {
+            "S": "eed1ddd0-228d-0136-9358-00fa5b489ec9"
+          },
+          "Round": {
+            "S": "1"
+          },
+          "Pick": {
+            "S": "21"
+          },
+          "OverallPick": {
+            "S": "21"
+          },
+          "Team": {
+            "S": "Cincinnati Bengals from Buffalo Bills"
+          }
+        }
+      }
+    }
+  ]
+}
