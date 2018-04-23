@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import './DraftViewContainer.css';
 import {compose, graphql} from 'react-apollo';
-import AllPlayersQuery from '../graphql/players/AllPlayersQuery';
+import AllDraftPicksQuery from '../graphql/draftPicks/AllDraftPicksQuery';
 import Footer from "../components/footer/Footer";
 import Nav from "../components/nav/Nav";
-import PlayerMockDraftTableRow from '../components/player/PlayerMockDraftTableRow';
+import _ from "lodash";
+import DraftPickTableRow from "../components/draftPick/DraftPickTableRow";
 
 
 class DraftViewContainer extends Component {
@@ -12,17 +13,14 @@ class DraftViewContainer extends Component {
 
     static defaultProps = {};
 
-    renderPlayers(players) {
-        let pick = 0;
-        return players.map((player) => {
-            pick++;
-
-            return (<PlayerMockDraftTableRow player={player} pick={pick} key={player.PlayerId}/>);
+    renderDraftPicks(draftPicks) {
+        return _.orderBy(draftPicks, ['OverallPick'], ['asc']).map((draftPick) => {
+            return (<DraftPickTableRow draftPick={draftPick}/>);
         });
     }
 
     render() {
-        const {players} = this.props;
+        const {draftPicks} = this.props;
 
         return (
             <div>
@@ -33,14 +31,14 @@ class DraftViewContainer extends Component {
                         <table className="table table-bordered table-hover table-responsive-sm table-striped">
                             <thead>
                             <tr>
-                                <th>Pick</th>
-                                <th className="text-left">Name</th>
-                                <th className="text-left">Position</th>
-                                <th className="text-left">Drafting Team</th>
+                                <th className="text-right">Overall Pick</th>
+                                <th className="text-right">Round</th>
+                                <th className="text-right">Pick</th>
+                                <th className="text-left">Team</th>
                             </tr>
                             </thead>
                             <tbody>
-                            {players ? this.renderPlayers(players) : null}
+                            {draftPicks ? this.renderDraftPicks(draftPicks) : null}
                             </tbody>
                         </table>
                     </div>
@@ -52,12 +50,12 @@ class DraftViewContainer extends Component {
 }
 
 const DraftViewContainerWithData = compose(
-    graphql(AllPlayersQuery, {
+    graphql(AllDraftPicksQuery, {
         options: {
             fetchPolicy: 'cache-and-network'
         },
         props: (props) => ({
-            players: props.data.listNflDraftMachinePlayers && props.data.listNflDraftMachinePlayers.items,
+            draftPicks: props.data.listNflDraftMachineDraftPicks && props.data.listNflDraftMachineDraftPicks.items,
         })
     }),
     // graphql(DeletePostMutation, {

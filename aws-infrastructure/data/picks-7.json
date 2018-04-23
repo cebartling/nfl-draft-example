@@ -1,5 +1,5 @@
 {
-  "nfl-draft-machine-Picks": [
+  "nfl-draft-machine-DraftPicks": [
     {
       "PutRequest": {
         "Item": {

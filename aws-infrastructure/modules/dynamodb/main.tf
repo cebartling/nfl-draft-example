@@ -107,3 +107,53 @@ resource "aws_dynamodb_table" "teams-table" {
     Environment = "${var.environment}"
   }
 }
+
+resource "aws_dynamodb_table" "draft-picks-table" {
+  name = "${var.application}-DraftPicks"
+  read_capacity = 2
+  write_capacity = 2
+  hash_key = "PickId"
+
+  attribute {
+    name = "PickId"
+    type = "S"
+  }
+
+  // attribute {
+  //   name = "Round"
+  //   type = "N"
+  // }
+
+  // attribute {
+  //   name = "Pick"
+  //   type = "N"
+  // }
+
+  attribute {
+    name = "OverallPick"
+    type = "N"
+  }
+
+  // attribute {
+  //   name = "Team"
+  //   type = "S"
+  // }
+
+//  ttl {
+//    attribute_name = "TimeToExist"
+//    enabled = false
+//  }
+//
+  global_secondary_index {
+    name = "DraftPickOverallPickIndex"
+    hash_key = "OverallPick"
+    write_capacity = 2
+    read_capacity = 2
+    projection_type = "KEYS_ONLY"
+  }
+
+  tags {
+    Name = "${var.application}-DraftPicks"
+    Environment = "${var.environment}"
+  }
+}
