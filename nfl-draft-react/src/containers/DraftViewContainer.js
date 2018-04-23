@@ -15,7 +15,7 @@ class DraftViewContainer extends Component {
 
     renderDraftPicks(draftPicks) {
         return _.orderBy(draftPicks, ['OverallPick'], ['asc']).map((draftPick) => {
-            return (<DraftPickTableRow draftPick={draftPick}/>);
+            return (<DraftPickTableRow draftPick={draftPick} key={draftPick.PickId}/>);
         });
     }
 

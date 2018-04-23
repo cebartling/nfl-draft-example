@@ -12,7 +12,6 @@ class Nav extends Component {
 
     render() {
         const {location} = this.props;
-        console.log(`You are now at ${location.pathname}`);
 
         let homeClassNames = classNames({
             'nav-item': true,
