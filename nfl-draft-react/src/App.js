@@ -3,13 +3,13 @@ import './App.css';
 import {Route, Router} from 'react-router-dom';
 import history from "./lib/history";
 import WelcomeViewContainer from "./containers/WelcomeViewContainer";
-import DraftViewContainer from "./containers/DraftViewContainer";
 import AWSAppSyncClient from "aws-appsync";
 import {Rehydrated} from 'aws-appsync-react';
 import {AUTH_TYPE} from "aws-appsync/lib/link/auth-link";
 import {ApolloProvider} from 'react-apollo';
 import PlayerBioViewContainer from "./containers/PlayerBioViewContainer";
 import TeamsViewContainer from "./containers/TeamsViewContainer";
+import MockDraftsListingViewContainer from "./containers/MockDraftsListingViewContainer";
 
 const client = new AWSAppSyncClient({
     url: process.env.REACT_APP_APPSYNC_ENDPOINT,
@@ -48,7 +48,7 @@ class App extends Component {
                         <div className="App">
                             <div className="main-content">
                                 <Route exact path="/" component={WelcomeViewContainer}/>
-                                <Route exact path="/draft" component={DraftViewContainer}/>
+                                <Route exact path="/mockDrafts" component={MockDraftsListingViewContainer}/>
                                 <Route exact path="/playerBio" component={PlayerBioViewContainer}/>
                                 <Route exact path="/teams" component={TeamsViewContainer}/>
                             </div>

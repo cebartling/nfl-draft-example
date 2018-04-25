@@ -157,3 +157,50 @@ resource "aws_dynamodb_table" "draft-picks-table" {
     Environment = "${var.environment}"
   }
 }
+
+resource "aws_dynamodb_table" "mock-drafts-table" {
+  name = "${var.application}-MockDrafts"
+  read_capacity = 2
+  write_capacity = 2
+  hash_key = "MockDraftId"
+
+  attribute {
+    name = "MockDraftId"
+    type = "S"
+  }
+
+  tags {
+    Name = "${var.application}-MockDrafts"
+    Environment = "${var.environment}"
+  }
+}
+
+resource "aws_dynamodb_table" "mock-draft-picks-table" {
+  name = "${var.application}-MockDraftPicks"
+  read_capacity = 2
+  write_capacity = 2
+  hash_key = "MockDraftPickId"
+
+  attribute {
+    name = "MockDraftPickId"
+    type = "S"
+  }
+
+  attribute {
+    name = "OverallPick"
+    type = "N"
+  }
+
+  global_secondary_index {
+    name = "MockDraftPicksOverallPickIndex"
+    hash_key = "OverallPick"
+    write_capacity = 2
+    read_capacity = 2
+    projection_type = "KEYS_ONLY"
+  }
+
+  tags {
+    Name = "${var.application}-MockDraftPicks"
+    Environment = "${var.environment}"
+  }
+}

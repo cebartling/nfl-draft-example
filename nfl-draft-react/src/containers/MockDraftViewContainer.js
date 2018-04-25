@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './DraftViewContainer.css';
+import './MockDraftViewContainer.css';
 import {compose, graphql} from 'react-apollo';
 import AllDraftPicksQuery from '../graphql/draftPicks/AllDraftPicksQuery';
 import Footer from "../components/footer/Footer";
@@ -8,7 +8,7 @@ import _ from "lodash";
 import DraftPickTableRow from "../components/draftPick/DraftPickTableRow";
 
 
-class DraftViewContainer extends Component {
+class MockDraftViewContainer extends Component {
     static propTypes = {};
 
     static defaultProps = {};
@@ -35,6 +35,7 @@ class DraftViewContainer extends Component {
                                 <th className="text-right">Round</th>
                                 <th className="text-right">Pick</th>
                                 <th className="text-left">Team</th>
+                                <th className="text-center">Actions</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -49,7 +50,7 @@ class DraftViewContainer extends Component {
     }
 }
 
-const DraftViewContainerWithData = compose(
+const MockDraftViewContainerWithData = compose(
     graphql(AllDraftPicksQuery, {
         options: {
             fetchPolicy: 'cache-and-network'
@@ -98,6 +99,6 @@ const DraftViewContainerWithData = compose(
     //         }
     //     }
     // })
-)(DraftViewContainer);
+)(MockDraftViewContainer);
 
-export default DraftViewContainerWithData;
+export default MockDraftViewContainerWithData;

@@ -8,7 +8,7 @@ class Nav extends Component {
         match: PropTypes.object.isRequired,
         location: PropTypes.object.isRequired,
         history: PropTypes.object.isRequired
-    }
+    };
 
     render() {
         const {location} = this.props;
@@ -23,7 +23,7 @@ class Nav extends Component {
         });
         let mockDraftsClassNames = classNames({
             'nav-item': true,
-            'active': location.pathname === '/draft'
+            'active': location.pathname === '/mockDrafts'
         });
         let teamsClassNames = classNames({
             'nav-item': true,
@@ -53,12 +53,12 @@ class Nav extends Component {
                             <Link className="nav-link" to="/playerBio">Player Bios</Link>
                         </li>
 
-                        <li className={mockDraftsClassNames}>
-                            <Link className="nav-link" to="/draft">Mock Draft</Link>
-                        </li>
-
                         <li className={teamsClassNames}>
                             <Link className="nav-link" to="/teams">Teams</Link>
+                        </li>
+
+                        <li className={mockDraftsClassNames}>
+                            <Link className="nav-link" to="/mockDrafts">Mock Drafts</Link>
                         </li>
                     </ul>
                 </div>
