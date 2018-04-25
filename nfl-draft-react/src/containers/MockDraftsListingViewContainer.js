@@ -40,7 +40,7 @@ class MockDraftsListingViewContainer extends Component {
                         <h1>Mock Drafts</h1>
                         <div className="text-left">
                             <Link className="btn btn-success"
-                                    to="/newMockDraft">Create new mock draft</Link>
+                                    to="/mockDraft/new">Create new mock draft</Link>
                         </div>
                         <hr/>
                         <table className="table table-bordered table-hover table-responsive-sm table-striped">

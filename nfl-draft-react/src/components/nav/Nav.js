@@ -23,7 +23,7 @@ class Nav extends Component {
         });
         let mockDraftsClassNames = classNames({
             'nav-item': true,
-            'active': location.pathname === '/mockDrafts'
+            'active': location.pathname === '/mockDrafts' || location.pathname === '/mockDraft/new'
         });
         let teamsClassNames = classNames({
             'nav-item': true,
