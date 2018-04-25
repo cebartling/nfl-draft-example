@@ -1,6 +1,7 @@
 /.idea/
 
 *.log
+.idea
 
 nfl-draft-react/.idea/
 nfl-draft-react/node_modules/
