@@ -10,17 +10,56 @@ class NewMockDraftViewContainer extends Component {
 
     static defaultProps = {};
 
+    constructor(props) {
+        super(props);
+        this.onClickFormSubmit = this.onClickFormSubmit.bind(this);
+        this.onClickFormCancel = this.onClickFormCancel.bind(this);
+    }
+
+    onClickFormSubmit() {
+    }
+
+    onClickFormCancel() {
+    }
+
     render() {
 
         return (
             <div>
                 <Nav/>
-                <main role="main" className="container">
-                    <div className="">
-                        <h1>New Mock Draft</h1>
 
-                    </div>
+                <main role="main" className="container">
+                    <h1>New Mock Draft</h1>
+                    <form className="mt-md-5">
+                        <div className="form-group row">
+                            <label htmlFor="mockDraftNameInput"
+                                   className="col-sm-3 col-form-label">Mock draft name</label>
+                            <div className="col-sm-9">
+                                <input type="text"
+                                       className="form-control"
+                                       id="mockDraftNameInput"
+                                       name="mockDraftNameInput"
+                                       placeholder="Mock draft name"/>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div className="form-group row">
+                            <label htmlFor="mockDraftNameInput"
+                                   className="col-sm-3 col-form-label">&nbsp;</label>
+                            <div className="col-sm-9 text-left">
+                                <button className="btn btn-primary"
+                                        onClick={this.onClickFormSubmit}>
+                                    Next...
+                                </button>
+                                <button className="btn btn-secondary ml-2"
+                                        onClick={this.onClickFormCancel}>
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </main>
+
                 <Footer/>
             </div>
         );
