@@ -10,7 +10,8 @@ import {ApolloProvider} from 'react-apollo';
 import PlayerBioViewContainer from "./containers/PlayerBioViewContainer";
 import TeamsViewContainer from "./containers/TeamsViewContainer";
 import MockDraftsListingViewContainer from "./containers/MockDraftsListingViewContainer";
-import NewMockDraftViewContainerWithData from "./containers/NewMockDraftViewContainer";
+import NewMockDraftViewContainer from "./containers/NewMockDraftViewContainer";
+import MockDraftViewContainer from "./containers/MockDraftViewContainer";
 
 const client = new AWSAppSyncClient({
     url: process.env.REACT_APP_APPSYNC_ENDPOINT,
@@ -50,7 +51,8 @@ class App extends Component {
                             <div className="main-content">
                                 <Route exact path="/" component={WelcomeViewContainer}/>
                                 <Route exact path="/mockDrafts" component={MockDraftsListingViewContainer}/>
-                                <Route exact path="/mockDraft/new" component={NewMockDraftViewContainerWithData}/>
+                                <Route exact path="/mockDraft/new" component={NewMockDraftViewContainer}/>
+                                <Route exact path="/mockDraft" component={MockDraftViewContainer}/>
                                 <Route exact path="/playerBio" component={PlayerBioViewContainer}/>
                                 <Route exact path="/teams" component={TeamsViewContainer}/>
                             </div>

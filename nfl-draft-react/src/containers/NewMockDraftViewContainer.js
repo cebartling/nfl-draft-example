@@ -9,18 +9,20 @@ import moment from "moment";
 import uuidv4 from 'uuid/v4';
 
 
-const AddMockDraft = () => {
+const AddMockDraft = (props) => {
+    const {history} = props;
     let nameInput;
     const fn = (node) => {
         nameInput = node;
     };
     const updateFn = (cache, {data: {createMockDraft}}) => {
-        const {mockDrafts} = cache.readQuery({query: AllMockDraftsQuery});
-        const newlyCreatedMockDraft = [createMockDraft];
-        cache.writeQuery({
-            query: AllMockDraftsQuery,
-            data: {listNflDraftMachineMockDrafts: mockDrafts ? mockDrafts.concat(newlyCreatedMockDraft) : newlyCreatedMockDraft}
-        });
+        // const {mockDrafts} = cache.readQuery({query: AllMockDraftsQuery});
+        // const newlyCreatedMockDraft = [createMockDraft];
+        // cache.writeQuery({
+        //     query: AllMockDraftsQuery,
+        //     data: {listNflDraftMachineMockDrafts: mockDrafts ? mockDrafts.concat(newlyCreatedMockDraft) : newlyCreatedMockDraft}
+        // });
+        history.push('/mockDraft');
     };
 
     return (
@@ -71,6 +73,7 @@ class NewMockDraftViewContainer extends Component {
     static defaultProps = {};
 
     render() {
+        const {history} = this.props;
 
         return (
 
@@ -79,7 +82,7 @@ class NewMockDraftViewContainer extends Component {
 
                 <main role="main" className="container">
                     <h1>New Mock Draft</h1>
-                    <AddMockDraft/>
+                    <AddMockDraft history={history}/>
                 </main>
 
                 <Footer/>
@@ -87,48 +90,5 @@ class NewMockDraftViewContainer extends Component {
         );
     }
 }
-
-// const NewMockDraftViewContainerWithData = compose(
-//     // graphql(DeletePostMutation, {
-//     //     props: (props) => ({
-//     //         onDelete: (post) => props.mutate({
-//     //             variables: { id: post.id, expectedVersion: post.version },
-//     //             optimisticResponse: () => ({ deletePost: { ...post, __typename: 'Post' } }),
-//     //         })
-//     //     }),
-//     //     options: {
-//     //         refetchQueries: [{ query: AllPostsQuery }],
-//     //         update: (proxy, { data: { deletePost: { id } } }) => {
-//     //             const query = AllPostsQuery;
-//     //             const data = proxy.readQuery({ query });
-//     //
-//     //             data.allPost.posts = data.allPost.posts.filter(post => post.id !== id);
-//     //
-//     //             proxy.writeQuery({ query, data });
-//     //         }
-//     //     }
-//     // }),
-//     // graphql(UpdatePostMutation, {
-//     //     props: (props) => ({
-//     //         onEdit: (post) => {
-//     //             props.mutate({
-//     //                 variables: { ...post, expectedVersion: post.version },
-//     //                 optimisticResponse: () => ({ updatePost: { ...post, __typename: 'Post', version: post.version + 1 } }),
-//     //             })
-//     //         }
-//     //     }),
-//     //     options: {
-//     //         refetchQueries: [{ query: AllPostsQuery }],
-//     //         update: (dataProxy, { data: { updatePost } }) => {
-//     //             const query = AllPostsQuery;
-//     //             const data = dataProxy.readQuery({ query });
-//     //
-//     //             data.allPost.posts = data.allPost.posts.map(post => post.id !== updatePost.id ? post : { ...updatePost });
-//     //
-//     //             dataProxy.writeQuery({ query, data });
-//     //         }
-//     //     }
-//     // })
-// )(NewMockDraftViewContainer);
 
 export default NewMockDraftViewContainer;
