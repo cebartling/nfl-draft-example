@@ -4,7 +4,6 @@ import './NewMockDraftViewContainer.css';
 import Footer from "../components/footer/Footer";
 import Nav from "../components/nav/Nav";
 import CreateMockDraftMutation from '../graphql/mockDrafts/CreateMockDraftMutation';
-import AllMockDraftsQuery from '../graphql/mockDrafts/AllMockDraftsQuery';
 import moment from "moment";
 import uuidv4 from 'uuid/v4';
 
@@ -15,14 +14,9 @@ const AddMockDraft = (props) => {
     const fn = (node) => {
         nameInput = node;
     };
-    const updateFn = (cache, {data: {createMockDraft}}) => {
-        // const {mockDrafts} = cache.readQuery({query: AllMockDraftsQuery});
-        // const newlyCreatedMockDraft = [createMockDraft];
-        // cache.writeQuery({
-        //     query: AllMockDraftsQuery,
-        //     data: {listNflDraftMachineMockDrafts: mockDrafts ? mockDrafts.concat(newlyCreatedMockDraft) : newlyCreatedMockDraft}
-        // });
-        history.push('/mockDraft');
+    const updateFn = (cache, {data: {createNflDraftMachineMockDrafts}}) => {
+        const location = {pathname: '/mockDraft', state: {mockDraftId: createNflDraftMachineMockDrafts.MockDraftId}};
+        history.push(location);
     };
 
     return (

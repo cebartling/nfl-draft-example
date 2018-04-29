@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
+import {Query} from "react-apollo";
 import './MockDraftViewContainer.css';
-import {compose, graphql} from 'react-apollo';
 import AllDraftPicksQuery from '../graphql/draftPicks/AllDraftPicksQuery';
 import Footer from "../components/footer/Footer";
 import Nav from "../components/nav/Nav";
@@ -13,36 +13,51 @@ class MockDraftViewContainer extends Component {
 
     static defaultProps = {};
 
-    renderDraftPicks(draftPicks) {
-        return _.orderBy(draftPicks, ['OverallPick'], ['asc']).map((draftPick) => {
-            return (<DraftPickTableRow draftPick={draftPick} key={draftPick.PickId}/>);
-        });
+    renderQueryResults({loading, error, data}) {
+        if (loading) return "Loading...";
+        if (error) return `Error! ${error.message}`;
+
+        const draftPicks = data.listNflDraftMachineDraftPicks &&
+            data.listNflDraftMachineDraftPicks.items;
+
+        const renderDraftPicks = (draftPicks) => {
+            return _.orderBy(draftPicks, ['OverallPick'], ['asc']).map((draftPick) => {
+                return (<DraftPickTableRow draftPick={draftPick} key={draftPick.PickId}/>);
+            });
+        };
+
+        return (
+            <div className="">
+                <h1>Mock Draft</h1>
+
+                <table
+                    className="table table-bordered table-hover table-responsive-sm table-striped">
+                    <thead>
+                    <tr>
+                        <th className="text-right">Overall Pick</th>
+                        <th className="text-right">Round</th>
+                        <th className="text-right">Pick</th>
+                        <th className="text-left">Team</th>
+                        <th className="text-center">Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {draftPicks ? renderDraftPicks(draftPicks) : null}
+                    </tbody>
+                </table>
+            </div>
+        );
     }
 
     render() {
-        const {draftPicks} = this.props;
+        const {location} = this.props;
+        const variables = {mockDraftId: location.state.mockDraftId};
 
         return (
             <div>
                 <Nav/>
                 <main role="main" className="container">
-                    <div className="">
-                        <h1>Mock Draft</h1>
-                        <table className="table table-bordered table-hover table-responsive-sm table-striped">
-                            <thead>
-                            <tr>
-                                <th className="text-right">Overall Pick</th>
-                                <th className="text-right">Round</th>
-                                <th className="text-right">Pick</th>
-                                <th className="text-left">Team</th>
-                                <th className="text-center">Actions</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            {draftPicks ? this.renderDraftPicks(draftPicks) : null}
-                            </tbody>
-                        </table>
-                    </div>
+                    <Query query={AllDraftPicksQuery} variables={variables}>{this.renderQueryResults}</Query>
                 </main>
                 <Footer/>
             </div>
@@ -50,55 +65,4 @@ class MockDraftViewContainer extends Component {
     }
 }
 
-const MockDraftViewContainerWithData = compose(
-    graphql(AllDraftPicksQuery, {
-        options: {
-            fetchPolicy: 'cache-and-network'
-        },
-        props: (props) => ({
-            draftPicks: props.data.listNflDraftMachineDraftPicks && props.data.listNflDraftMachineDraftPicks.items,
-        })
-    }),
-    // graphql(DeletePostMutation, {
-    //     props: (props) => ({
-    //         onDelete: (post) => props.mutate({
-    //             variables: { id: post.id, expectedVersion: post.version },
-    //             optimisticResponse: () => ({ deletePost: { ...post, __typename: 'Post' } }),
-    //         })
-    //     }),
-    //     options: {
-    //         refetchQueries: [{ query: AllPostsQuery }],
-    //         update: (proxy, { data: { deletePost: { id } } }) => {
-    //             const query = AllPostsQuery;
-    //             const data = proxy.readQuery({ query });
-    //
-    //             data.allPost.posts = data.allPost.posts.filter(post => post.id !== id);
-    //
-    //             proxy.writeQuery({ query, data });
-    //         }
-    //     }
-    // }),
-    // graphql(UpdatePostMutation, {
-    //     props: (props) => ({
-    //         onEdit: (post) => {
-    //             props.mutate({
-    //                 variables: { ...post, expectedVersion: post.version },
-    //                 optimisticResponse: () => ({ updatePost: { ...post, __typename: 'Post', version: post.version + 1 } }),
-    //             })
-    //         }
-    //     }),
-    //     options: {
-    //         refetchQueries: [{ query: AllPostsQuery }],
-    //         update: (dataProxy, { data: { updatePost } }) => {
-    //             const query = AllPostsQuery;
-    //             const data = dataProxy.readQuery({ query });
-    //
-    //             data.allPost.posts = data.allPost.posts.map(post => post.id !== updatePost.id ? post : { ...updatePost });
-    //
-    //             dataProxy.writeQuery({ query, data });
-    //         }
-    //     }
-    // })
-)(MockDraftViewContainer);
-
-export default MockDraftViewContainerWithData;
+export default MockDraftViewContainer;
