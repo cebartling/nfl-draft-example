@@ -6,7 +6,7 @@ const moment = require('moment');
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 
-module.exports.createMockDraft = async (event) => {
+module.exports.createMockDraft = async (event, context, callback) => {
     console.log('Received event:', JSON.stringify(event, null, 2));
     const mockDraftId = uuidv4();
     const params = {
@@ -18,7 +18,16 @@ module.exports.createMockDraft = async (event) => {
         }
     };
 
-    const promise1 = await dynamoDb.put(params).promise(); // returns dynamo result
+    const promise1 = await dynamoDb.put(params).promise();
 
-    return promise1;
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify({
+            mockDraftId: mockDraftId,
+            message: 'Successfully created new mock draft.',
+            input: event,
+        }),
+    };
+
+    callback(null, response);
 };
