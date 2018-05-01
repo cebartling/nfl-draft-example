@@ -31,6 +31,14 @@ provider:
       Action:
         - "lambda:GetAccountSettings"
       Resource: "*"
+    - Effect: "Allow"
+      Action:
+        - "dynamodb:DeleteItem"
+        - "dynamodb:GetItem"
+        - "dynamodb:PutItem"
+        - "dynamodb:Scan"
+      Resource: "*"
+
 
 # you can define service wide environment variables here
 #  environment:
