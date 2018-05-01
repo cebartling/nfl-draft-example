@@ -20,12 +20,6 @@ service: nfl-draft-aws-lambda-functions
 provider:
   name: aws
   runtime: nodejs8.10
-
-# you can overwrite defaults here
-#  stage: dev
-#  region: us-east-1
-
-# you can add statements to the Lambda function's IAM Role here
   iamRoleStatements:
     - Effect: "Allow"
       Action:
@@ -33,11 +27,20 @@ provider:
       Resource: "*"
     - Effect: "Allow"
       Action:
-        - "dynamodb:DeleteItem"
+        - "dynamodb:DescribeTable"
+        - "dynamodb:Query"
+        - "dynamodb:Scan"
         - "dynamodb:GetItem"
         - "dynamodb:PutItem"
-        - "dynamodb:Scan"
-      Resource: "*"
+        - "dynamodb:UpdateItem"
+        - "dynamodb:DeleteItem"
+      Resource: "arn:aws:dynamodb:us-east-1:*:*"
+
+# you can overwrite defaults here
+#  stage: dev
+#  region: us-east-1
+
+# you can add statements to the Lambda function's IAM Role here
 
 
 # you can define service wide environment variables here
@@ -56,6 +59,8 @@ provider:
 functions:
   hello:
     handler: handler.hello
+  createMockDraft:
+    handler: mockDraftHandler.createMockDraft
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events

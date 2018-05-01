@@ -1,0 +1,11 @@
+{
+  "name": "nfl-draft-aws-lambda-functions",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "moment": "^2.22.1",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
