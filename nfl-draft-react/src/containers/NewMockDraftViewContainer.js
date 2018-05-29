@@ -4,8 +4,6 @@ import './NewMockDraftViewContainer.css';
 import Footer from "../components/footer/Footer";
 import Nav from "../components/nav/Nav";
 import CreateMockDraftMutation from '../graphql/mockDrafts/CreateMockDraftMutation';
-import moment from "moment";
-import uuidv4 from 'uuid/v4';
 
 
 const AddMockDraft = (props) => {
@@ -14,8 +12,8 @@ const AddMockDraft = (props) => {
     const fn = (node) => {
         nameInput = node;
     };
-    const updateFn = (cache, {data: {createNflDraftMachineMockDrafts}}) => {
-        const location = {pathname: '/mockDraft', state: {mockDraftId: createNflDraftMachineMockDrafts.MockDraftId}};
+    const updateFn = (cache, {data: {createMockDraft}}) => {
+        const location = {pathname: '/mockDraft', state: {mockDraftId: createMockDraft.MockDraftId}};
         history.push(location);
     };
 
@@ -25,12 +23,10 @@ const AddMockDraft = (props) => {
             {(createMockDraft, {data}) => (
                 <form className="mt-md-5" onSubmit={(e) => {
                     e.preventDefault();
-                    const createNflDraftMachineMockDraftsInput = {
-                        MockDraftId: uuidv4(),
+                    const createMockDraftInput = {
                         Name: nameInput.value,
-                        LastUpdated: moment().toISOString()
                     };
-                    createMockDraft({variables: {input: createNflDraftMachineMockDraftsInput}});
+                    createMockDraft({variables: {input: createMockDraftInput}});
                     nameInput.value = "";
                 }}>
                     <div className="form-group row">

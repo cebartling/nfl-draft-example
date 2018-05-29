@@ -1,8 +1,8 @@
 import gql from 'graphql-tag';
 
 export default gql`
-mutation createNflDraftMachineMockDrafts($input: CreateNflDraftMachineMockDraftsInput!) {
-	createNflDraftMachineMockDrafts(input: $input) {
+mutation createMockDraft($input: CreateMockDraftInput!) {
+	createMockDraft(input: $input) {
         MockDraftId
         Name
         LastUpdated
