@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import {PropTypes} from 'prop-types';
+import PickModalDialog from "./PickModalDialog";
+import {findDOMNode} from 'react-dom';
+import $ from 'jquery';
 
 class DraftPickTableRow extends Component {
     static propTypes = {
@@ -11,18 +14,15 @@ class DraftPickTableRow extends Component {
     constructor(props) {
         super(props);
         this.onClickPickButton = this.onClickPickButton.bind(this);
-        this.onClickTradeButton = this.onClickTradeButton.bind(this);
+        // this.state = {showPickDialog: false};
     }
 
     onClickPickButton() {
-        const {draftPick} = this.props;
-        console.log('Making pick...', draftPick);
+        // this.setState({showPickDialog: true});
+        const el = findDOMNode(this.refs.modalDialog);
+        $(el).modal('show');
     }
 
-    onClickTradeButton() {
-        const {draftPick} = this.props;
-        console.log('Trading pick...', draftPick);
-    }
 
     render() {
         const {draftPick} = this.props;
@@ -36,7 +36,10 @@ class DraftPickTableRow extends Component {
                 <td className="text-center">
                     <div className="btn-group" role="group" aria-label="Mock draft actions">
                         <button className="btn btn-success btn-sm" onClick={this.onClickPickButton}>Pick</button>
-                        <button className="btn btn-secondary btn-sm" onClick={this.onClickTradeButton}>Trade</button>
+                    </div>
+                    <div>
+                        {/*{this.state.showPickDialog ?  : null}*/}
+                        <PickModalDialog ref="modalDialog" draftPick={draftPick}/>
                     </div>
                 </td>
             </tr>

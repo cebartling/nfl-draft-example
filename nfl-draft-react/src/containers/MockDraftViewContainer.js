@@ -57,7 +57,9 @@ class MockDraftViewContainer extends Component {
             <div>
                 <Nav/>
                 <main role="main" className="container">
-                    <Query query={AllDraftPicksQuery} variables={variables}>{this.renderQueryResults}</Query>
+                    <Query query={AllDraftPicksQuery} variables={variables}>
+                        {this.renderQueryResults}
+                    </Query>
                 </main>
                 <Footer/>
             </div>

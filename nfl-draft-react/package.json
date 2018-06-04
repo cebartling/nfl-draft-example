@@ -28,6 +28,7 @@
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
     "redux-saga": "^0.16.0",
+    "tether": "^1.4.4",
     "uuid": "^3.2.1"
   },
   "scripts": {

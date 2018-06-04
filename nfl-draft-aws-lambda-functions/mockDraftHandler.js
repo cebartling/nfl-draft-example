@@ -5,9 +5,7 @@ const uuidv4 = require('uuid/v4');
 const moment = require('moment');
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
-
-module.exports.createMockDraft = async (event, context, callback) => {
-    console.log('Received event:', JSON.stringify(event, null, 2));
+const createMockDraft = async (event) => {
     const mockDraftId = uuidv4();
     const lastUpdated = moment().toISOString();
     const mockDraftName = event.arguments.input.Name;
@@ -19,25 +17,26 @@ module.exports.createMockDraft = async (event, context, callback) => {
             LastUpdated: lastUpdated
         }
     };
-
-    const putResult = await dynamoDb.put(params).promise();
-    console.log('DynamoDB PUT result:', JSON.stringify(putResult, null, 2));
-
-    // const response = {
-    //     statusCode: 200,
-    //     body: JSON.stringify({
-    //         MockDraftId: mockDraftId,
-    //         Name: event.mockDraftName,
-    //         LastUpdated: lastUpdated,
-    //         message: 'Successfully created new mock draft.',
-    //         input: event,
-    //     }),
-    // };
-
-    const result = {
+    await dynamoDb.put(params).promise();
+    return {
         MockDraftId: mockDraftId,
         Name: mockDraftName,
         LastUpdated: lastUpdated
     };
+};
+
+const createMockDraftPicks = async (mockDraftId) => {
+    const params = {
+        TableName: 'nfl-draft-machine-DraftPicks',
+        Select: 'ALL_ATTRIBUTES'
+    };
+    const draftPicks = await dynamoDb.scan(params).promise();
+    console.log('Draft picks', draftPicks);
+};
+
+module.exports.createMockDraft = async (event, context, callback) => {
+    console.log('Received event:', JSON.stringify(event, null, 2));
+    const result = createMockDraft(event);
+    await createMockDraftPicks(result.MockDraftId);
     callback(null, result);
 };
