@@ -168,9 +168,9 @@ amazon-cognito-auth-js@^1.1.9:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/amazon-cognito-auth-js/-/amazon-cognito-auth-js-1.2.0.tgz#637f044a3a6114d6d0a87b415157ea36f32431e8"
 
-amazon-cognito-identity-js@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-2.0.8.tgz#a3266ef7f7a39623c370f597878ccb4e96704a97"
+amazon-cognito-identity-js@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/amazon-cognito-identity-js/-/amazon-cognito-identity-js-2.0.9.tgz#5a8fd6e97c513d753c14cc9e17091b105fb65d22"
   dependencies:
     buffer "4.9.1"
     crypto-browserify "1.0.9"
@@ -522,14 +522,14 @@ autoprefixer@^6.3.1:
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
 
-aws-amplify@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-0.4.3.tgz#26ada07ab644d977dd019c1c75d86eefcd55e44a"
+aws-amplify@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/aws-amplify/-/aws-amplify-0.4.4.tgz#b1839c07dd2bcc93adbf9c53050650551154db85"
   dependencies:
     "@types/paho-mqtt" "^1.0.3"
     "@types/zen-observable" "^0.5.3"
     amazon-cognito-auth-js "^1.1.9"
-    amazon-cognito-identity-js "^2.0.8"
+    amazon-cognito-identity-js "^2.0.9"
     aws-sdk "2.198.0"
     axios "^0.17.0"
     graphql "0.13.0"
@@ -538,16 +538,16 @@ aws-amplify@^0.4.3:
     uuid "^3.2.1"
     zen-observable "^0.8.6"
 
-aws-appsync-react@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/aws-appsync-react/-/aws-appsync-react-1.0.13.tgz#9830c849e3ccba76b9548d56f1ec61353cd38925"
+aws-appsync-react@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/aws-appsync-react/-/aws-appsync-react-1.0.14.tgz#6c81c1c92057dbde4917dff6b898231989338727"
   dependencies:
-    aws-appsync "^1.0.22"
+    aws-appsync "^1.0.23"
     prop-types "^15.6.0"
 
-aws-appsync@^1.0.22:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/aws-appsync/-/aws-appsync-1.0.22.tgz#6c6269456456731ade6d2289321f6cc72b933c12"
+aws-appsync@^1.0.23:
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/aws-appsync/-/aws-appsync-1.0.23.tgz#ff663e72159e68d5fb82a521f26222b6d3732107"
   dependencies:
     "@redux-offline/redux-offline" "^2.2.1"
     apollo-cache-inmemory "^1.0.0"
@@ -590,9 +590,9 @@ aws-sdk@^2.139.0:
     xml2js "0.4.17"
     xmlbuilder "4.2.1"
 
-aws-sdk@^2.250.1:
-  version "2.250.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.250.1.tgz#0cc04edfc41fa0a6a5eccbc56888832f59270141"
+aws-sdk@^2.254.1:
+  version "2.254.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.254.1.tgz#70d0a97bac0d5e8ceaf36ddb6b3651f01da4790e"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -1788,9 +1788,9 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
 clean-css@4.1.x:
   version "4.1.10"
@@ -3852,7 +3852,7 @@ hoek@4.x.x:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
 
-hoist-non-react-statics@^2.3.0, hoist-non-react-statics@^2.5.0:
+hoist-non-react-statics@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.0.tgz#d2ca2dfc19c5a91c5a6615ce8e564ef0347e2a40"
 
@@ -4154,6 +4154,12 @@ interpret@^1.0.0:
 invariant@^2.0.0, invariant@^2.2.1, invariant@^2.2.2:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.3.tgz#1a827dfde7dcbd7c323f0ca826be8fa7c5e9d688"
+  dependencies:
+    loose-envify "^1.0.0"
+
+invariant@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
     loose-envify "^1.0.0"
 
@@ -6887,7 +6893,7 @@ promzard@^0.3.0:
   dependencies:
     read "1"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.7, prop-types@^15.6.0, prop-types@^15.6.1:
+prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.6.0, prop-types@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
@@ -7132,28 +7138,28 @@ react-redux@^5.0.7:
     loose-envify "^1.1.0"
     prop-types "^15.6.0"
 
-react-router-dom@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.2.2.tgz#c8a81df3adc58bba8a76782e946cbd4eae649b8d"
+react-router-dom@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.3.1.tgz#4c2619fc24c4fa87c9fd18f4fb4a43fe63fbd5c6"
   dependencies:
     history "^4.7.2"
-    invariant "^2.2.2"
+    invariant "^2.2.4"
     loose-envify "^1.3.1"
-    prop-types "^15.5.4"
-    react-router "^4.2.0"
-    warning "^3.0.0"
+    prop-types "^15.6.1"
+    react-router "^4.3.1"
+    warning "^4.0.1"
 
-react-router@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-4.2.0.tgz#61f7b3e3770daeb24062dae3eedef1b054155986"
+react-router@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-4.3.1.tgz#aada4aef14c809cb2e686b05cee4742234506c4e"
   dependencies:
     history "^4.7.2"
-    hoist-non-react-statics "^2.3.0"
-    invariant "^2.2.2"
+    hoist-non-react-statics "^2.5.0"
+    invariant "^2.2.4"
     loose-envify "^1.3.1"
     path-to-regexp "^1.7.0"
-    prop-types "^15.5.4"
-    warning "^3.0.0"
+    prop-types "^15.6.1"
+    warning "^4.0.1"
 
 react-scripts@1.1.4:
   version "1.1.4"
@@ -8957,6 +8963,12 @@ walker@~1.0.5:
 warning@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  dependencies:
+    loose-envify "^1.0.0"
+
+warning@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.1.tgz#66ce376b7fbfe8a887c22bdf0e7349d73d397745"
   dependencies:
     loose-envify "^1.0.0"
 
